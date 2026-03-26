@@ -1,0 +1,840 @@
+{
+  "@@locale": "uk",
+
+  "common_save": "Зберегти",
+  "common_cancel": "Скасувати",
+  "common_delete": "Видалити",
+  "common_edit": "Редагувати",
+  "common_ok": "OK",
+  "common_confirm": "Підтвердити",
+  "common_back": "Назад",
+  "common_next": "Далі",
+  "common_skip": "Пропустити",
+  "common_close": "Закрити",
+  "common_error": "Помилка",
+  "common_retry": "Спробувати знову",
+  "common_loading": "Завантаження...",
+  "common_showAll": "Показати все",
+  "common_noAccess": "Немає доступу",
+  "common_noAccessDescription": "У вас немає дозволу на доступ до цього розділу.",
+  "common_requiredField": "Обов'язкове поле",
+  "common_all": "Усі",
+  "common_active": "Активний",
+  "common_inactive": "Неактивний",
+  "common_add": "Додати",
+  "common_remove": "Видалити",
+  "common_create": "Створити",
+  "common_search": "Пошук",
+  "common_email": "Ел. пошта",
+  "common_phone": "Телефон",
+  "common_notes": "Нотатки",
+  "common_name": "Ім'я",
+  "common_firstName": "Ім'я",
+  "common_lastName": "Прізвище",
+  "common_password": "Пароль",
+  "common_date": "Дата",
+  "common_description": "Опис",
+  "common_type": "Тип",
+  "common_group": "Група",
+  "common_role": "Роль",
+  "common_color": "Колір",
+  "common_download": "Завантажити",
+  "common_send": "Надіслати",
+  "common_justNow": "Щойно",
+  "common_minutesAgo": "{minutes} хв. тому",
+  "@common_minutesAgo": {
+    "placeholders": {
+      "minutes": { "type": "int" }
+    }
+  },
+  "common_hoursAgo": "{hours} год. тому",
+  "@common_hoursAgo": {
+    "placeholders": {
+      "hours": { "type": "int" }
+    }
+  },
+  "common_today": "Сьогодні",
+  "common_yesterday": "Вчора",
+  "common_daysAgo": "{days} днів тому",
+  "@common_daysAgo": {
+    "placeholders": {
+      "days": { "type": "int" }
+    }
+  },
+  "common_yearsOld": "{years} років",
+  "@common_yearsOld": {
+    "placeholders": {
+      "years": { "type": "int" }
+    }
+  },
+  "common_clock": "Година",
+
+  "auth_appName": "KitaFlow",
+  "auth_appInitials": "KF",
+  "auth_appTagline": "Освітня платформа для дітей від 0 до 10 років",
+  "auth_appSlogan": "Освітня платформа для дітей",
+  "auth_loginTitle": "Увійти",
+  "auth_loginEmail": "Ел. пошта",
+  "auth_loginEmailHint": "name@example.com",
+  "auth_loginEmailRequired": "Будь ласка, введіть ел. пошту",
+  "auth_loginEmailInvalid": "Будь ласка, введіть дійсну ел. пошту",
+  "auth_loginPassword": "Пароль",
+  "auth_loginPasswordRequired": "Будь ласка, введіть пароль",
+  "auth_loginPasswordMinLength": "Мінімум 8 символів",
+  "auth_forgotPassword": "Забули пароль?",
+  "auth_noAccount": "Ще немає облікового запису?",
+  "auth_register": "Зареєструватися",
+  "auth_alreadyHaveAccount": "Вже є обліковий запис?",
+
+  "auth_registerTitle": "Створити обліковий запис",
+  "auth_registerSubtitle": "Створіть свій обліковий запис KitaFlow",
+  "auth_registerFirstName": "Ім'я",
+  "auth_registerFirstNameHint": "Ваше ім'я",
+  "auth_registerFirstNameRequired": "Будь ласка, введіть своє ім'я",
+  "auth_registerLastName": "Прізвище",
+  "auth_registerLastNameHint": "Ваше прізвище",
+  "auth_registerLastNameRequired": "Будь ласка, введіть своє прізвище",
+  "auth_registerEmailHint": "your@email.com",
+  "auth_registerEmailRequired": "Будь ласка, введіть свою ел. пошту",
+  "auth_registerEmailInvalid": "Будь ласка, введіть дійсну ел. пошту",
+  "auth_registerPasswordMinLength": "Мінімум 8 символів",
+  "auth_registerPasswordRequired": "Будь ласка, введіть пароль",
+  "auth_registerPasswordTooShort": "Пароль має містити щонайменше 8 символів",
+  "auth_registerPasswordStrengthWeak": "Слабкий",
+  "auth_registerPasswordStrengthMedium": "Середній",
+  "auth_registerPasswordStrengthStrong": "Надійний",
+  "auth_registerConfirmPassword": "Підтвердити пароль",
+  "auth_registerConfirmPasswordHint": "Повторіть пароль",
+  "auth_registerConfirmPasswordRequired": "Будь ласка, підтвердіть свій пароль",
+  "auth_registerPasswordMismatch": "Паролі не збігаються",
+  "auth_registerRoleLabel": "Роль",
+  "auth_registerRoleHint": "Оберіть роль",
+  "auth_registerRoleRequired": "Будь ласка, оберіть роль",
+  "auth_registerAcceptTerms": "Я приймаю умови використання та політику конфіденційності",
+  "auth_registerTermsRequired": "Ви повинні прийняти умови використання та політику конфіденційності",
+
+  "auth_forgotPasswordTitle": "Скинути пароль",
+  "auth_forgotPasswordDescription": "Введіть свою ел. пошту, і ми надішлемо вам посилання для скидання пароля.",
+  "auth_forgotPasswordSendLink": "Надіслати посилання",
+  "auth_forgotPasswordBackToLogin": "Повернутися до входу",
+  "auth_forgotPasswordEmailSent": "Лист надіслано!",
+  "auth_forgotPasswordCheckInbox": "Перевірте вашу поштову скриньку.",
+
+  "auth_verifyEmailTitle": "Підтвердити ел. пошту",
+  "auth_verifyEmailSubtitle": "Будь ласка, підтвердіть свою ел. пошту",
+  "auth_verifyEmailDescription": "Ми надіслали вам лист для підтвердження. Натисніть на посилання в листі, щоб активувати свій обліковий запис.",
+  "auth_verifyEmailResend": "Надіслати повторно",
+  "auth_verifyEmailResendCountdown": "Надіслати повторно ({seconds}с)",
+  "@auth_verifyEmailResendCountdown": {
+    "placeholders": {
+      "seconds": { "type": "int" }
+    }
+  },
+  "auth_verifyEmailBackToLogin": "Повернутися до входу",
+  "auth_verifyEmailResent": "Лист надіслано повторно",
+
+  "shell_dashboard": "Панель керування",
+  "shell_kinder": "Діти",
+  "shell_anwesenheit": "Відвідуваність",
+  "shell_nachrichten": "Повідомлення",
+  "shell_mehr": "Більше",
+
+  "shell_elternHome": "Головна",
+  "shell_elternNachrichten": "Повідомлення",
+  "shell_elternTermine": "Події",
+  "shell_elternMeinKind": "Моя дитина",
+  "shell_elternMehr": "Більше",
+
+  "onboarding_institutionTitle": "Налаштування закладу",
+  "onboarding_institutionCreate": "Створити заклад",
+  "onboarding_stepType": "Оберіть тип закладу",
+  "onboarding_stepData": "Дані закладу",
+  "onboarding_stepGroups": "Створити групи/класи",
+  "onboarding_stepStaff": "Запросити працівників",
+  "onboarding_selectTypePrompt": "Будь ласка, оберіть тип закладу.",
+  "onboarding_nameRequired": "Будь ласка, введіть назву закладу.",
+  "onboarding_nameLabel": "Назва закладу",
+  "onboarding_street": "Вулиця",
+  "onboarding_zip": "Поштовий індекс",
+  "onboarding_city": "Місто",
+  "onboarding_state": "Область",
+  "onboarding_phone": "Телефон",
+  "onboarding_emailLabel": "Ел. пошта",
+  "onboarding_maxChildren": "Макс. дітей",
+  "onboarding_color": "Колір",
+  "onboarding_addGroup": "Додати групу/клас",
+  "onboarding_addInvitation": "Додати запрошення",
+  "onboarding_creatingInstitution": "Створення закладу...",
+
+  "onboarding_parentTitle": "Реєстрація батьків",
+  "onboarding_parentLinkChild": "Прив'язати дитину",
+  "onboarding_parentCodeHint": "Введіть код запрошення...",
+  "onboarding_parentCodeLabel": "Код запрошення",
+  "onboarding_parentCheckCode": "Перевірити код",
+  "onboarding_parentInvitationFound": "Запрошення знайдено!",
+  "onboarding_parentAcceptInvitation": "Прийняти запрошення",
+  "onboarding_parentWelcome": "Ласкаво просимо до KitaFlow!",
+  "onboarding_parentChildLinked": "Вашу дитину успішно прив'язано.",
+  "onboarding_parentLetsGo": "Розпочати",
+
+  "dashboard_title": "Панель керування",
+  "dashboard_hints": "Сповіщення",
+  "dashboard_mealPlanToday": "Меню на сьогодні",
+  "dashboard_messages": "Повідомлення",
+  "dashboard_greetingMorning": "Доброго ранку",
+  "dashboard_greetingAfternoon": "Доброго дня",
+  "dashboard_greetingEvening": "Доброго вечора",
+  "dashboard_greetingWithName": "{greeting}, {name}!",
+  "@dashboard_greetingWithName": {
+    "placeholders": {
+      "greeting": { "type": "String" },
+      "name": { "type": "String" }
+    }
+  },
+  "dashboard_statsPresent": "Присутні",
+  "dashboard_statsUnread": "Непрочитані",
+  "dashboard_statsSick": "Хворі",
+  "dashboard_quickCheckIn": "Реєстрація",
+  "dashboard_quickMessage": "Повідомлення",
+  "dashboard_quickAddChild": "Дитина +",
+  "dashboard_quickMessages": "Повідомлення",
+  "dashboard_quickSickNote": "Лікарняний",
+  "dashboard_noMealPlan": "На сьогодні меню немає",
+  "dashboard_noNewMessages": "Немає нових повідомлень",
+  "dashboard_birthdayAlert": "День народження: {name}",
+  "@dashboard_birthdayAlert": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "dashboard_birthdayToday": "Сьогодні виповнюється {years} років!",
+  "@dashboard_birthdayToday": {
+    "placeholders": {
+      "years": { "type": "int" }
+    }
+  },
+  "dashboard_birthdayUpcoming": "Виповниться {years} років {date}",
+  "@dashboard_birthdayUpcoming": {
+    "placeholders": {
+      "years": { "type": "int" },
+      "date": { "type": "String" }
+    }
+  },
+
+  "kinder_title": "Діти",
+  "kinder_search": "Шукати дітей...",
+  "kinder_notFound": "Дітей не знайдено",
+  "kinder_notFoundDescription": "За поточними фільтрами дітей не знайдено.",
+  "kinder_addChild": "Додати дитину",
+  "kinder_errorOccurred": "Сталася помилка.",
+
+  "kinder_formEditTitle": "Редагувати дитину",
+  "kinder_formNewTitle": "Нова дитина",
+  "kinder_formFirstName": "Ім'я *",
+  "kinder_formLastName": "Прізвище *",
+  "kinder_formFirstNameRequired": "Будь ласка, введіть ім'я",
+  "kinder_formLastNameRequired": "Будь ласка, введіть прізвище",
+  "kinder_formBirthDate": "Дата народження *",
+  "kinder_formBirthDateSelect": "Оберіть дату народження",
+  "kinder_formBirthDateRequired": "Будь ласка, оберіть дату народження",
+  "kinder_formGender": "Стать",
+  "kinder_formGenderSelect": "Оберіть стать",
+  "kinder_formGenderMale": "Хлопчик",
+  "kinder_formGenderFemale": "Дівчинка",
+  "kinder_formGenderDiverse": "Інше",
+  "kinder_formGroup": "Група",
+  "kinder_formGroupSelect": "Оберіть групу",
+  "kinder_formEntryDate": "Дата вступу",
+  "kinder_formEntryDateSelect": "Оберіть дату вступу",
+  "kinder_formNotes": "Нотатки",
+  "kinder_formNotesHint": "Особливі зауваження, потреби тощо.",
+  "kinder_formSave": "Зберегти",
+  "kinder_formCreate": "Створити дитину",
+
+  "kinder_detailNotFound": "Дитину не знайдено.",
+  "kinder_detailDeleteTitle": "Видалити дитину",
+  "kinder_detailDeleteConfirm": "Ви дійсно хочете видалити {name}? Цю дію неможливо скасувати.",
+  "@kinder_detailDeleteConfirm": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "kinder_detailTabMasterData": "Основні дані",
+  "kinder_detailTabAllergies": "Алергії ({count})",
+  "@kinder_detailTabAllergies": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "kinder_detailTabContacts": "Контакти ({count})",
+  "@kinder_detailTabContacts": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "kinder_detailBirthDate": "Дата народження",
+  "kinder_detailGender": "Стать",
+  "kinder_detailGroup": "Група",
+  "kinder_detailEntryDate": "Дата вступу",
+  "kinder_detailStatus": "Статус",
+  "kinder_detailNotes": "Нотатки",
+  "kinder_detailNoAllergies": "Алергій не зареєстровано",
+  "kinder_detailAddAllergyHint": "Додайте відомі алергії...",
+  "kinder_detailAddAllergy": "Додати алергію",
+  "kinder_detailRemoveAllergy": "Видалити алергію",
+  "kinder_detailNoContacts": "Немає контактних осіб",
+  "kinder_detailAddContactHint": "Додайте контактних осіб...",
+  "kinder_detailAddContact": "Додати контакт",
+  "kinder_detailRemoveContact": "Видалити контакт",
+  "kinder_detailPickupAuthorized": "Має право забирати",
+  "kinder_detailEmergencyContact": "Екстрений контакт",
+
+  "kinder_allergyFormTitle": "Додати алергію",
+  "kinder_allergyFormAllergen": "Алерген *",
+  "kinder_allergyFormAllergenRequired": "Будь ласка, оберіть алерген",
+  "kinder_allergyFormSeverity": "Ступінь тяжкості",
+  "kinder_allergyFormHints": "Примітки",
+  "kinder_allergyFormHintsPlaceholder": "напр. реакція, невідкладні ліки",
+
+  "kinder_contactFormEditTitle": "Редагувати контакт",
+  "kinder_contactFormAddTitle": "Додати контакт",
+  "kinder_contactFormName": "Ім'я *",
+  "kinder_contactFormNameRequired": "Будь ласка, введіть ім'я",
+  "kinder_contactFormRelation": "Зв'язок *",
+  "kinder_contactFormRelationHint": "напр. мати, батько, бабуся/дідусь",
+  "kinder_contactFormRelationRequired": "Будь ласка, введіть зв'язок",
+  "kinder_contactFormPhone": "Телефон",
+  "kinder_contactFormEmail": "Ел. пошта",
+  "kinder_contactFormPickupAuthorized": "Має право забирати",
+  "kinder_contactFormPickupDescription": "Може забирати дитину із закладу",
+  "kinder_contactFormEmergencyContact": "Екстрений контакт",
+  "kinder_contactFormEmergencyDescription": "Зв'язуються в екстрених випадках",
+  "kinder_contactFormSave": "Зберегти",
+
+  "anwesenheit_title": "Відвідуваність",
+  "anwesenheit_all": "Усі",
+  "anwesenheit_markAllPresent": "Позначити всіх присутніми",
+  "anwesenheit_alreadyPickedUp": "Вже забрано або відсутній.",
+  "anwesenheit_allRecorded": "Усі діти вже зареєстровані.",
+  "anwesenheit_markedPresent": "{count} дітей позначено присутніми.",
+  "@anwesenheit_markedPresent": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "anwesenheit_notRecorded": "Не зареєстровано",
+  "anwesenheit_presentSince": "Присутній з {time}",
+  "@anwesenheit_presentSince": {
+    "placeholders": {
+      "time": { "type": "String" }
+    }
+  },
+  "anwesenheit_pickedUp": "Забрано {time}",
+  "@anwesenheit_pickedUp": {
+    "placeholders": {
+      "time": { "type": "String" }
+    }
+  },
+  "anwesenheit_statsPresent": "Присутні",
+  "anwesenheit_statsAbsent": "Відсутні",
+  "anwesenheit_statsSick": "Хворі",
+  "anwesenheit_statsTotal": "Усього",
+  "anwesenheit_statusDialogTitle": "Змінити статус",
+  "anwesenheit_statusDialogNote": "Примітка (необов'язково)",
+  "anwesenheit_statusDialogSetStatus": "Встановити статус",
+
+  "anwesenheit_sickNoteTitle": "Лікарняний",
+  "anwesenheit_sickNoteDescription": "Повідомте про хворобу дитини або подайте обґрунтування.",
+  "anwesenheit_sickNoteDate": "Дата",
+  "anwesenheit_sickNoteReason": "Причина *",
+  "anwesenheit_sickNoteMessage": "Повідомлення закладу",
+  "anwesenheit_sickNoteMessageHint": "Необов'язкове повідомлення закладу...",
+  "anwesenheit_sickNoteSend": "Надіслати лікарняний",
+
+  "nachrichten_title": "Повідомлення",
+  "nachrichten_all": "Усі",
+  "nachrichten_noMessages": "Немає повідомлень",
+  "nachrichten_inboxEmpty": "Ваша скринька порожня.",
+  "nachrichten_noSentMessages": "Немає надісланих повідомлень",
+  "nachrichten_noSentDescription": "Ви ще не надіслали жодного повідомлення.",
+  "nachrichten_noImportant": "Немає важливих повідомлень",
+  "nachrichten_noImportantDescription": "Повідомлень, позначених як важливі, немає.",
+
+  "nachrichten_detailTitle": "Повідомлення",
+  "nachrichten_detailDeleteTitle": "Видалити повідомлення",
+  "nachrichten_detailDeleteConfirm": "Ви дійсно хочете остаточно видалити це повідомлення?",
+  "nachrichten_detailNotFound": "Повідомлення не знайдено.",
+  "nachrichten_detailAttachments": "Вкладення",
+  "nachrichten_detailReadBy": "Прочитано {read}/{total}",
+  "@nachrichten_detailReadBy": {
+    "placeholders": {
+      "read": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "nachrichten_detailDeleteTooltip": "Видалити повідомлення",
+
+  "nachrichten_formTitle": "Нове повідомлення",
+  "nachrichten_formType": "Тип",
+  "nachrichten_formRecipients": "Одержувачі",
+  "nachrichten_formRecipientsAll": "Усі",
+  "nachrichten_formRecipientsGroup": "Група",
+  "nachrichten_formRecipientsIndividual": "Індивідуально",
+  "nachrichten_formSelectGroup": "Оберіть групу",
+  "nachrichten_formSelectGroupHint": "Будь ласка, оберіть групу",
+  "nachrichten_formSelectGroupRequired": "Будь ласка, оберіть групу",
+  "nachrichten_formSelectRecipients": "Оберіть одержувачів",
+  "nachrichten_formRecipientsSelected": "{count} одержувачів обрано",
+  "@nachrichten_formRecipientsSelected": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "nachrichten_formSubject": "Тема",
+  "nachrichten_formSubjectHint": "Введіть тему",
+  "nachrichten_formContent": "Зміст",
+  "nachrichten_formContentHint": "Введіть повідомлення...",
+  "nachrichten_formMarkImportant": "Позначити як важливе",
+  "nachrichten_formSend": "Надіслати повідомлення",
+
+  "nachrichten_recipientDialogTitle": "Обрати одержувачів",
+  "nachrichten_recipientDialogSearch": "Шукати за ім'ям або роллю...",
+  "nachrichten_recipientDialogNone": "Зняти вибір",
+  "nachrichten_recipientDialogAll": "Обрати всіх",
+  "nachrichten_recipientDialogConfirm": "Обрати {count} одержувачів",
+  "@nachrichten_recipientDialogConfirm": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "nachrichten_recipientDialogLoadError": "Не вдалося завантажити профілі.",
+  "nachrichten_recipientDialogNoProfiles": "Профілів не знайдено.",
+  "nachrichten_recipientDialogNoResults": "Результатів за запитом \"{query}\" не знайдено.",
+  "@nachrichten_recipientDialogNoResults": {
+    "placeholders": {
+      "query": { "type": "String" }
+    }
+  },
+
+  "nachrichten_attachmentDownload": "Завантажити",
+  "nachrichten_attachmentRemove": "Видалити",
+
+  "essensplan_title": "Меню",
+  "essensplan_previousWeek": "Попередній тиждень",
+  "essensplan_nextWeek": "Наступний тиждень",
+  "essensplan_currentWeek": "Поточний тиждень",
+  "essensplan_noMealPlan": "Меню немає",
+  "essensplan_noMealsPlanned": "На цей тиждень страви ще не заплановані.",
+  "essensplan_deleteMeal": "Видалити страву",
+
+  "essensplan_formEditTitle": "Редагувати страву",
+  "essensplan_formNewTitle": "Нова страва",
+  "essensplan_formDate": "Дата",
+  "essensplan_formMealType": "Тип прийому їжі",
+  "essensplan_formDishName": "Страва",
+  "essensplan_formDishNameRequired": "Будь ласка, введіть назву страви",
+  "essensplan_formDescription": "Опис (необов'язково)",
+  "essensplan_formAllergens": "Алергени (Регламент ЄС 1169/2011)",
+  "essensplan_formVegetarian": "Вегетаріанська",
+  "essensplan_formVegan": "Веганська",
+  "essensplan_formSave": "Зберегти страву",
+
+  "essensplan_allergenWarnings": "Попередження про алергени ({count})",
+  "@essensplan_allergenWarnings": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "essensplan_weekdayMonday": "Понеділок",
+  "essensplan_weekdayTuesday": "Вівторок",
+  "essensplan_weekdayWednesday": "Середа",
+  "essensplan_weekdayThursday": "Четвер",
+  "essensplan_weekdayFriday": "П'ятниця",
+  "essensplan_weekdaySaturday": "Субота",
+  "essensplan_weekdaySunday": "Неділя",
+
+  "eltern_homeTitle": "KitaFlow",
+  "eltern_homeMyChildren": "Мої діти",
+  "eltern_homeNoChildren": "Дітей ще не прив'язано.",
+  "eltern_homeQuickActions": "Швидкі дії",
+  "eltern_quickSickNote": "Лікарняний",
+  "eltern_quickMessage": "Повідомлення",
+  "eltern_quickCalendar": "Події",
+
+  "eltern_kindTitle": "Моя дитина",
+  "eltern_kindTabProfile": "Профіль",
+  "eltern_kindTabAttendance": "Відвідуваність",
+  "eltern_kindTabAllergies": "Алергії",
+  "eltern_kindTabContacts": "Контакти",
+  "eltern_kindNoChildSelected": "Дитину не обрано.",
+  "eltern_kindBirthday": "День народження",
+  "eltern_kindGender": "Стать",
+  "eltern_kindStatus": "Статус",
+  "eltern_kindNoAllergies": "Алергій не зареєстровано.",
+  "eltern_kindAllergiesTitle": "Алергії та непереносимість",
+  "eltern_kindAttendanceTitle": "Відвідуваність",
+  "eltern_kindAttendanceLoading": "Завантаження календаря відвідуваності...",
+  "eltern_kindNoContacts": "Контактних осіб не зареєстровано.",
+  "eltern_kindContactsTitle": "Контактні особи",
+
+  "eltern_nachrichtenTitle": "Повідомлення",
+  "eltern_nachrichtenLoading": "Завантаження повідомлень…",
+  "eltern_nachrichtenEmpty": "Немає повідомлень",
+  "eltern_nachrichtenEmptyDescription": "Ви ще не отримали жодного повідомлення.",
+
+  "termine_title": "Події",
+  "termine_noAppointments": "Подій немає.",
+  "termine_rsvpTitle": "Відповідь",
+  "termine_rsvpFor": "Для: {title}",
+  "@termine_rsvpFor": {
+    "placeholders": {
+      "title": { "type": "String" }
+    }
+  },
+  "termine_weekdayMon": "Пн",
+  "termine_weekdayTue": "Вт",
+  "termine_weekdayWed": "Ср",
+  "termine_weekdayThu": "Чт",
+  "termine_weekdayFri": "Пт",
+  "termine_weekdaySat": "Сб",
+  "termine_weekdaySun": "Нд",
+
+  "fotos_title": "Фотографії",
+  "fotos_noPhotos": "Фотографій ще немає.",
+  "fotos_viewerTitle": "Фото",
+
+  "push_title": "Push-сповіщення",
+  "push_sectionNotifications": "Сповіщення",
+  "push_messages": "Повідомлення",
+  "push_messagesDescription": "Нові повідомлення та листи батькам",
+  "push_attendance": "Відвідуваність",
+  "push_attendanceDescription": "Зміни статусу відвідуваності",
+  "push_appointments": "Події",
+  "push_appointmentsDescription": "Нові події та нагадування",
+  "push_mealPlan": "Меню",
+  "push_mealPlanDescription": "Зміни в меню",
+  "push_emergency": "Екстрена ситуація",
+  "push_emergencyDescription": "Важливі екстрені сповіщення",
+  "push_sectionQuietHours": "Тихі години",
+  "push_quietHoursDescription": "Без сповіщень протягом цього часу",
+  "push_quietHoursFrom": "З",
+  "push_quietHoursTo": "До",
+
+  "verwaltung_title": "Управління",
+  "verwaltung_institution": "Заклад",
+  "verwaltung_groupsTitle": "Групи та класи",
+  "verwaltung_groupsCount": "{count} груп",
+  "@verwaltung_groupsCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "verwaltung_staffTitle": "Працівники",
+  "verwaltung_staffCount": "{count} працівників",
+  "@verwaltung_staffCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "verwaltung_groupsListTitle": "Групи та класи",
+  "verwaltung_groupsEmpty": "Груп немає.",
+  "verwaltung_groupsOccupancyWithMax": "Заповненість: {current} / {max}",
+  "@verwaltung_groupsOccupancyWithMax": {
+    "placeholders": {
+      "current": { "type": "int" },
+      "max": { "type": "int" }
+    }
+  },
+  "verwaltung_groupsOccupancy": "Заповненість: {count} дітей",
+  "@verwaltung_groupsOccupancy": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "verwaltung_groupsInactive": "Неактивний",
+
+  "verwaltung_groupFormEditTitle": "Редагувати групу",
+  "verwaltung_groupFormNewTitle": "Нова група",
+  "verwaltung_groupFormName": "Назва",
+  "verwaltung_groupFormNameRequired": "Назва обов'язкова",
+  "verwaltung_groupFormType": "Тип",
+  "verwaltung_groupFormTypeGroup": "Група",
+  "verwaltung_groupFormTypeClass": "Клас",
+  "verwaltung_groupFormMaxChildren": "Макс. дітей",
+  "verwaltung_groupFormAgeFrom": "Вік від",
+  "verwaltung_groupFormAgeTo": "Вік до",
+  "verwaltung_groupFormSchoolYear": "Навчальний рік",
+  "verwaltung_groupFormColor": "Колір",
+  "verwaltung_groupFormActive": "Активний",
+  "verwaltung_groupFormSave": "Зберегти",
+  "verwaltung_groupFormCreate": "Створити",
+
+  "verwaltung_staffListTitle": "Працівники",
+  "verwaltung_staffEmpty": "Працівників немає.",
+  "verwaltung_staffChangeRole": "Змінити роль",
+  "verwaltung_staffAssignGroup": "Призначити групу",
+  "verwaltung_staffRemove": "Видалити",
+  "verwaltung_staffNoGroup": "Без групи",
+  "verwaltung_staffRemoveTitle": "Видалити працівника",
+  "verwaltung_staffRemoveConfirm": "Ви дійсно хочете видалити {name} із закладу?",
+  "@verwaltung_staffRemoveConfirm": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+
+  "verwaltung_staffFormTitle": "Додати працівника",
+  "verwaltung_staffFormEmail": "Ел. пошта",
+  "verwaltung_staffFormEmailRequired": "Ел. пошта обов'язкова",
+  "verwaltung_staffFormEmailInvalid": "Недійсна ел. пошта",
+  "verwaltung_staffFormRole": "Роль",
+  "verwaltung_staffFormGroup": "Група (необов'язково)",
+  "verwaltung_staffFormNoGroup": "Без групи",
+  "verwaltung_staffFormAdd": "Додати",
+  "verwaltung_staffFormInvitePending": "Запрошення працівників електронною поштою буде реалізовано на наступному етапі.",
+
+  "verwaltung_institutionFormTitle": "Редагувати заклад",
+  "verwaltung_institutionFormSectionGeneral": "Загальне",
+  "verwaltung_institutionFormName": "Назва закладу",
+  "verwaltung_institutionFormNameRequired": "Будь ласка, введіть назву",
+  "verwaltung_institutionFormType": "Тип",
+  "verwaltung_institutionFormTypeHint": "Оберіть тип закладу",
+  "verwaltung_institutionFormTypeRequired": "Будь ласка, оберіть тип",
+  "verwaltung_institutionFormSectionAddress": "Адреса",
+  "verwaltung_institutionFormStreet": "Вулиця та номер будинку",
+  "verwaltung_institutionFormZip": "Поштовий індекс",
+  "verwaltung_institutionFormCity": "Місто",
+  "verwaltung_institutionFormState": "Область",
+  "verwaltung_institutionFormSectionContact": "Контакт",
+  "verwaltung_institutionFormPhone": "Телефон",
+  "verwaltung_institutionFormEmail": "Ел. пошта",
+  "verwaltung_institutionFormEmailInvalid": "Будь ласка, введіть дійсну ел. пошту",
+  "verwaltung_institutionFormWebsite": "Вебсайт",
+  "verwaltung_institutionFormSaveSuccess": "Заклад успішно збережено.",
+  "verwaltung_institutionFormSaveError": "Помилка збереження.",
+  "verwaltung_institutionFormLoadError": "Помилка завантаження.",
+
+  "enum_roleErzieher": "Вихователь",
+  "enum_roleLehrer": "Вчитель",
+  "enum_roleLeitung": "Керівник",
+  "enum_roleTraeger": "Засновник",
+  "enum_roleEltern": "Батьки",
+
+  "enum_institutionTypeKrippe": "Ясла",
+  "enum_institutionTypeKita": "Дитячий садок",
+  "enum_institutionTypeGrundschule": "Початкова школа",
+  "enum_institutionTypeOgs": "Група подовженого дня",
+  "enum_institutionTypeHort": "Продовжена група",
+
+  "enum_attendanceAnwesend": "Присутній",
+  "enum_attendanceAbwesend": "Відсутній",
+  "enum_attendanceKrank": "Хворий",
+  "enum_attendanceUrlaub": "Відпустка",
+  "enum_attendanceEntschuldigt": "З поважною причиною",
+  "enum_attendanceUnentschuldigt": "Без поважної причини",
+
+  "enum_messageTypeNachricht": "Повідомлення",
+  "enum_messageTypeElternbrief": "Лист батькам",
+  "enum_messageTypeAnkuendigung": "Оголошення",
+  "enum_messageTypeNotfall": "Екстрена ситуація",
+
+  "enum_childStatusAktiv": "Активний",
+  "enum_childStatusEingewoehnung": "Адаптація",
+  "enum_childStatusAbgemeldet": "Відраховано",
+  "enum_childStatusWarteliste": "Черга очікування",
+
+  "enum_mealTypeFruehstueck": "Сніданок",
+  "enum_mealTypeMittagessen": "Обід",
+  "enum_mealTypeSnack": "Перекус",
+
+  "enum_developmentMotorik": "Моторика",
+  "enum_developmentSprache": "Мовлення",
+  "enum_developmentSozialverhalten": "Соціальна поведінка",
+  "enum_developmentKognitiv": "Когнітивний розвиток",
+  "enum_developmentEmotional": "Емоційний розвиток",
+  "enum_developmentKreativitaet": "Креативність",
+
+  "enum_allergenGluten": "Глютен",
+  "enum_allergenKrebstiere": "Ракоподібні",
+  "enum_allergenEier": "Яйця",
+  "enum_allergenFisch": "Риба",
+  "enum_allergenErdnuesse": "Арахіс",
+  "enum_allergenSoja": "Соя",
+  "enum_allergenMilch": "Молоко",
+  "enum_allergenSchalenfruechte": "Горіхи",
+  "enum_allergenSellerie": "Селера",
+  "enum_allergenSenf": "Гірчиця",
+  "enum_allergenSesam": "Кунжут",
+  "enum_allergenSchwefeldioxid": "Діоксид сірки",
+  "enum_allergenLupinen": "Люпин",
+  "enum_allergenWeichtiere": "Молюски",
+
+  "enum_allergySeverityLeicht": "Легкий",
+  "enum_allergySeverityMittel": "Середній",
+  "enum_allergySeveritySchwer": "Тяжкий",
+  "enum_allergySeverityLebensbedrohlich": "Загроза життю",
+
+  "enum_documentTypeVertrag": "Договір",
+  "enum_documentTypeEinverstaendnis": "Згода",
+  "enum_documentTypeAttest": "Довідка",
+  "enum_documentTypeZeugnis": "Табель",
+  "enum_documentTypeSonstiges": "Інше",
+
+  "enum_nachrichtenTabPosteingang": "Вхідні",
+  "enum_nachrichtenTabGesendet": "Надіслані",
+  "enum_nachrichtenTabWichtig": "Важливі",
+
+  "enum_terminTypAllgemein": "Загальне",
+  "enum_terminTypElternabend": "Батьківські збори",
+  "enum_terminTypFestFeier": "Свято/Захід",
+  "enum_terminTypSchliessung": "Закриття",
+  "enum_terminTypAusflug": "Екскурсія",
+  "enum_terminTypSonstiges": "Інше",
+
+  "enum_rsvpZugesagt": "Підтверджено",
+  "enum_rsvpAbgesagt": "Відхилено",
+  "enum_rsvpVielleicht": "Можливо",
+
+  "enum_elternBeziehungMutter": "Мати",
+  "enum_elternBeziehungVater": "Батько",
+  "enum_elternBeziehungSorgeberechtigt": "Опікун",
+
+  "dashboard_monthJanuar": "Січень",
+  "dashboard_monthFebruar": "Лютий",
+  "dashboard_monthMaerz": "Березень",
+  "dashboard_monthApril": "Квітень",
+  "dashboard_monthMai": "Травень",
+  "dashboard_monthJuni": "Червень",
+  "dashboard_monthJuli": "Липень",
+  "dashboard_monthAugust": "Серпень",
+  "dashboard_monthSeptember": "Вересень",
+  "dashboard_monthOktober": "Жовтень",
+  "dashboard_monthNovember": "Листопад",
+  "dashboard_monthDezember": "Грудень",
+
+  "dashboard_weekdayMontag": "Понеділок",
+  "dashboard_weekdayDienstag": "Вівторок",
+  "dashboard_weekdayMittwoch": "Середа",
+  "dashboard_weekdayDonnerstag": "Четвер",
+  "dashboard_weekdayFreitag": "П'ятниця",
+  "dashboard_weekdaySamstag": "Субота",
+  "dashboard_weekdaySonntag": "Неділя",
+
+  "verwaltung_rolleDropdownErzieher": "Вихователь",
+  "verwaltung_rolleDropdownLehrer": "Вчитель",
+  "verwaltung_rolleDropdownLeitung": "Керівник",
+
+  "common_language": "Мова",
+
+  "dokumente_title": "Документи",
+  "dokumente_noDocuments": "Документів поки немає.",
+  "dokumente_upload": "Завантажити",
+  "dokumente_download": "Скачати",
+  "dokumente_delete": "Видалити документ",
+  "dokumente_deleteConfirm": "Ви дійсно хочете видалити цей документ?",
+  "dokumente_filterAll": "Усі",
+  "dokumente_signed": "Підписано",
+  "dokumente_unsigned": "Не підписано",
+  "dokumente_signedBy": "Підписано {name} {date}",
+  "@dokumente_signedBy": {
+    "placeholders": {
+      "name": {"type": "String"},
+      "date": {"type": "String"}
+    }
+  },
+  "dokumente_validUntil": "Дійсний до {date}",
+  "@dokumente_validUntil": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+  "dokumente_expired": "Прострочено",
+  "dokumente_sign": "Підписати",
+  "dokumente_signTitle": "Підписати документ",
+  "dokumente_signClear": "Очистити",
+  "dokumente_signConfirm": "Підтвердити підпис",
+  "dokumente_signHint": "Підпишіть тут",
+  "dokumente_uploadSuccess": "Документ успішно завантажено.",
+  "dokumente_uploadError": "Помилка при завантаженні документа.",
+  "dokumente_deleteSuccess": "Документ успішно видалено.",
+  "dokumente_signSuccess": "Документ успішно підписано.",
+  "dokumente_pdfGenerate": "Створити PDF",
+  "dokumente_pdfPreview": "Попередній перегляд PDF",
+  "dokumente_formTitle": "Новий документ",
+  "dokumente_formTitel": "Заголовок",
+  "dokumente_formTyp": "Тип документа",
+  "dokumente_formBeschreibung": "Опис",
+  "dokumente_formGueltigBis": "Дійсний до",
+  "dokumente_formKind": "Призначити дитині",
+  "dokumente_formKindOptional": "Без дитини (загальний)",
+  "dokumente_formFile": "Файл",
+  "dokumente_formFileSelect": "Обрати файл",
+  "dokumente_formFileSelected": "Обраний файл: {filename}",
+  "@dokumente_formFileSelected": {
+    "placeholders": {
+      "filename": {"type": "String"}
+    }
+  },
+  "dokumente_count": "{count} документів",
+  "@dokumente_count": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "verwaltung_dokumenteTile": "Документи",
+
+  "verwaltung_eingewoehnungTile": "Адаптація",
+
+  "eingewoehnung_title": "Адаптація",
+  "eingewoehnung_subtitle": "Управління фазою адаптації",
+  "eingewoehnung_count": "{count} адаптацій",
+  "@eingewoehnung_count": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "eingewoehnung_startdatum": "Дата початку",
+  "eingewoehnung_bezugsperson": "Контактна особа",
+  "eingewoehnung_phasenFortschritt": "Прогрес фаз",
+  "eingewoehnung_naechstePhase": "Наступна фаза",
+  "eingewoehnung_phaseAendern": "Змінити фазу",
+  "eingewoehnung_neueNotiz": "Нова щоденна нотатка",
+  "eingewoehnung_dauer": "Тривалість (хвилини)",
+  "eingewoehnung_trennungsverhalten": "Поведінка при розлуці",
+  "eingewoehnung_essen": "Їжа",
+  "eingewoehnung_schlaf": "Сон",
+  "eingewoehnung_spiel": "Гра",
+  "eingewoehnung_stimmung": "Настрій",
+  "eingewoehnung_notizenIntern": "Внутрішні нотатки",
+  "eingewoehnung_notizenEltern": "Нотатки для батьків",
+  "eingewoehnung_notizenElternHinweis": "Ця нотатка видима для батьків.",
+  "eingewoehnung_keineTagesnotizen": "Ще немає щоденних нотаток.",
+  "eingewoehnung_elternFeedback": "Відгук батьків",
+  "eingewoehnung_feedbackFrage": "Як ви переживаєте адаптацію вашої дитини?",
+  "eingewoehnung_tage": "{count} днів",
+  "@eingewoehnung_tage": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "eingewoehnung_notizGespeichert": "Щоденну нотатку збережено.",
+  "eingewoehnung_phaseGeaendert": "Фазу успішно змінено.",
+  "eingewoehnung_feedbackGespeichert": "Відгук збережено.",
+  "eingewoehnung_keineAktiven": "Немає активних адаптацій.",
+  "eingewoehnung_neueEingewoehnung": "Нова адаптація",
+  "eingewoehnung_kindAuswaehlen": "Обрати дитину",
+  "eingewoehnung_nurEingewoehnung": "Тільки діти зі статусом ‚Адаптація'",
+
+  "enum_phaseGrundphase": "Основна фаза",
+  "enum_phaseStabilisierung": "Стабілізація",
+  "enum_phaseSchlussphase": "Завершальна фаза",
+  "enum_phaseAbgeschlossen": "Завершено",
+
+  "enum_stimmungSehrGut": "Дуже добре",
+  "enum_stimmungGut": "Добре",
+  "enum_stimmungNeutral": "Нейтрально",
+  "enum_stimmungSchlecht": "Погано",
+  "enum_stimmungSehrSchlecht": "Дуже погано"
+}

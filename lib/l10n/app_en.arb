@@ -1,0 +1,840 @@
+{
+  "@@locale": "en",
+
+  "common_save": "Save",
+  "common_cancel": "Cancel",
+  "common_delete": "Delete",
+  "common_edit": "Edit",
+  "common_ok": "OK",
+  "common_confirm": "Confirm",
+  "common_back": "Back",
+  "common_next": "Next",
+  "common_skip": "Skip",
+  "common_close": "Close",
+  "common_error": "Error",
+  "common_retry": "Try again",
+  "common_loading": "Loading...",
+  "common_showAll": "Show all",
+  "common_noAccess": "No access",
+  "common_noAccessDescription": "You do not have permission to access this area.",
+  "common_requiredField": "Required field",
+  "common_all": "All",
+  "common_active": "Active",
+  "common_inactive": "Inactive",
+  "common_add": "Add",
+  "common_remove": "Remove",
+  "common_create": "Create",
+  "common_search": "Search",
+  "common_email": "Email",
+  "common_phone": "Phone",
+  "common_notes": "Notes",
+  "common_name": "Name",
+  "common_firstName": "First name",
+  "common_lastName": "Last name",
+  "common_password": "Password",
+  "common_date": "Date",
+  "common_description": "Description",
+  "common_type": "Type",
+  "common_group": "Group",
+  "common_role": "Role",
+  "common_color": "Colour",
+  "common_download": "Download",
+  "common_send": "Send",
+  "common_justNow": "Just now",
+  "common_minutesAgo": "{minutes} min ago",
+  "@common_minutesAgo": {
+    "placeholders": {
+      "minutes": { "type": "int" }
+    }
+  },
+  "common_hoursAgo": "{hours} hrs ago",
+  "@common_hoursAgo": {
+    "placeholders": {
+      "hours": { "type": "int" }
+    }
+  },
+  "common_today": "Today",
+  "common_yesterday": "Yesterday",
+  "common_daysAgo": "{days} days ago",
+  "@common_daysAgo": {
+    "placeholders": {
+      "days": { "type": "int" }
+    }
+  },
+  "common_yearsOld": "{years} years",
+  "@common_yearsOld": {
+    "placeholders": {
+      "years": { "type": "int" }
+    }
+  },
+  "common_clock": "o'clock",
+
+  "auth_appName": "KitaFlow",
+  "auth_appInitials": "KF",
+  "auth_appTagline": "Education platform for children aged 0–10",
+  "auth_appSlogan": "The education platform for children",
+  "auth_loginTitle": "Sign in",
+  "auth_loginEmail": "Email",
+  "auth_loginEmailHint": "name@example.co.uk",
+  "auth_loginEmailRequired": "Please enter your email",
+  "auth_loginEmailInvalid": "Please enter a valid email",
+  "auth_loginPassword": "Password",
+  "auth_loginPasswordRequired": "Please enter your password",
+  "auth_loginPasswordMinLength": "At least 8 characters",
+  "auth_forgotPassword": "Forgot password?",
+  "auth_noAccount": "Don't have an account yet?",
+  "auth_register": "Register",
+  "auth_alreadyHaveAccount": "Already have an account?",
+
+  "auth_registerTitle": "Create account",
+  "auth_registerSubtitle": "Create your KitaFlow account",
+  "auth_registerFirstName": "First name",
+  "auth_registerFirstNameHint": "Your first name",
+  "auth_registerFirstNameRequired": "Please enter your first name",
+  "auth_registerLastName": "Last name",
+  "auth_registerLastNameHint": "Your last name",
+  "auth_registerLastNameRequired": "Please enter your last name",
+  "auth_registerEmailHint": "your@email.co.uk",
+  "auth_registerEmailRequired": "Please enter your email address",
+  "auth_registerEmailInvalid": "Please enter a valid email address",
+  "auth_registerPasswordMinLength": "At least 8 characters",
+  "auth_registerPasswordRequired": "Please enter a password",
+  "auth_registerPasswordTooShort": "The password must be at least 8 characters long",
+  "auth_registerPasswordStrengthWeak": "Weak",
+  "auth_registerPasswordStrengthMedium": "Medium",
+  "auth_registerPasswordStrengthStrong": "Strong",
+  "auth_registerConfirmPassword": "Confirm password",
+  "auth_registerConfirmPasswordHint": "Repeat password",
+  "auth_registerConfirmPasswordRequired": "Please confirm your password",
+  "auth_registerPasswordMismatch": "The passwords do not match",
+  "auth_registerRoleLabel": "Role",
+  "auth_registerRoleHint": "Select role",
+  "auth_registerRoleRequired": "Please select a role",
+  "auth_registerAcceptTerms": "I accept the terms and conditions and privacy policy",
+  "auth_registerTermsRequired": "You must accept the terms and conditions and privacy policy",
+
+  "auth_forgotPasswordTitle": "Reset password",
+  "auth_forgotPasswordDescription": "Enter your email address and we will send you a link to reset your password.",
+  "auth_forgotPasswordSendLink": "Send link",
+  "auth_forgotPasswordBackToLogin": "Back to login",
+  "auth_forgotPasswordEmailSent": "Email has been sent!",
+  "auth_forgotPasswordCheckInbox": "Check your inbox.",
+
+  "auth_verifyEmailTitle": "Verify email",
+  "auth_verifyEmailSubtitle": "Please verify your email address",
+  "auth_verifyEmailDescription": "We have sent you a verification email. Click the link in the email to activate your account.",
+  "auth_verifyEmailResend": "Resend",
+  "auth_verifyEmailResendCountdown": "Resend ({seconds}s)",
+  "@auth_verifyEmailResendCountdown": {
+    "placeholders": {
+      "seconds": { "type": "int" }
+    }
+  },
+  "auth_verifyEmailBackToLogin": "Back to login",
+  "auth_verifyEmailResent": "Email has been resent",
+
+  "shell_dashboard": "Dashboard",
+  "shell_kinder": "Children",
+  "shell_anwesenheit": "Attendance",
+  "shell_nachrichten": "Messages",
+  "shell_mehr": "More",
+
+  "shell_elternHome": "Home",
+  "shell_elternNachrichten": "Messages",
+  "shell_elternTermine": "Appointments",
+  "shell_elternMeinKind": "My Child",
+  "shell_elternMehr": "More",
+
+  "onboarding_institutionTitle": "Set up institution",
+  "onboarding_institutionCreate": "Create institution",
+  "onboarding_stepType": "Select institution type",
+  "onboarding_stepData": "Institution details",
+  "onboarding_stepGroups": "Create groups/classes",
+  "onboarding_stepStaff": "Invite staff",
+  "onboarding_selectTypePrompt": "Please select an institution type.",
+  "onboarding_nameRequired": "Please enter a name for the institution.",
+  "onboarding_nameLabel": "Institution name",
+  "onboarding_street": "Street",
+  "onboarding_zip": "Postcode",
+  "onboarding_city": "City",
+  "onboarding_state": "County",
+  "onboarding_phone": "Phone",
+  "onboarding_emailLabel": "Email",
+  "onboarding_maxChildren": "Max. children",
+  "onboarding_color": "Colour",
+  "onboarding_addGroup": "Add group/class",
+  "onboarding_addInvitation": "Add invitation",
+  "onboarding_creatingInstitution": "Creating institution...",
+
+  "onboarding_parentTitle": "Parent onboarding",
+  "onboarding_parentLinkChild": "Link child",
+  "onboarding_parentCodeHint": "Enter the invitation code...",
+  "onboarding_parentCodeLabel": "Invitation code",
+  "onboarding_parentCheckCode": "Check code",
+  "onboarding_parentInvitationFound": "Invitation found!",
+  "onboarding_parentAcceptInvitation": "Accept invitation",
+  "onboarding_parentWelcome": "Welcome to KitaFlow!",
+  "onboarding_parentChildLinked": "Your child has been successfully linked.",
+  "onboarding_parentLetsGo": "Let's go",
+
+  "dashboard_title": "Dashboard",
+  "dashboard_hints": "Notices",
+  "dashboard_mealPlanToday": "Today's meal plan",
+  "dashboard_messages": "Messages",
+  "dashboard_greetingMorning": "Good morning",
+  "dashboard_greetingAfternoon": "Good afternoon",
+  "dashboard_greetingEvening": "Good evening",
+  "dashboard_greetingWithName": "{greeting}, {name}!",
+  "@dashboard_greetingWithName": {
+    "placeholders": {
+      "greeting": { "type": "String" },
+      "name": { "type": "String" }
+    }
+  },
+  "dashboard_statsPresent": "Present",
+  "dashboard_statsUnread": "Unread",
+  "dashboard_statsSick": "Sick",
+  "dashboard_quickCheckIn": "Check-in",
+  "dashboard_quickMessage": "Message",
+  "dashboard_quickAddChild": "Child +",
+  "dashboard_quickMessages": "Messages",
+  "dashboard_quickSickNote": "Sick note",
+  "dashboard_noMealPlan": "No meal plan for today",
+  "dashboard_noNewMessages": "No new messages",
+  "dashboard_birthdayAlert": "Birthday: {name}",
+  "@dashboard_birthdayAlert": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "dashboard_birthdayToday": "Turns {years} years old today!",
+  "@dashboard_birthdayToday": {
+    "placeholders": {
+      "years": { "type": "int" }
+    }
+  },
+  "dashboard_birthdayUpcoming": "Turns {years} years old on {date}",
+  "@dashboard_birthdayUpcoming": {
+    "placeholders": {
+      "years": { "type": "int" },
+      "date": { "type": "String" }
+    }
+  },
+
+  "kinder_title": "Children",
+  "kinder_search": "Search children...",
+  "kinder_notFound": "No children found",
+  "kinder_notFoundDescription": "No children were found with the current filters.",
+  "kinder_addChild": "Add child",
+  "kinder_errorOccurred": "An error has occurred.",
+
+  "kinder_formEditTitle": "Edit child",
+  "kinder_formNewTitle": "New child",
+  "kinder_formFirstName": "First name *",
+  "kinder_formLastName": "Last name *",
+  "kinder_formFirstNameRequired": "Please enter first name",
+  "kinder_formLastNameRequired": "Please enter last name",
+  "kinder_formBirthDate": "Date of birth *",
+  "kinder_formBirthDateSelect": "Select date of birth",
+  "kinder_formBirthDateRequired": "Please select date of birth",
+  "kinder_formGender": "Gender",
+  "kinder_formGenderSelect": "Select gender",
+  "kinder_formGenderMale": "Male",
+  "kinder_formGenderFemale": "Female",
+  "kinder_formGenderDiverse": "Diverse",
+  "kinder_formGroup": "Group",
+  "kinder_formGroupSelect": "Select group",
+  "kinder_formEntryDate": "Entry date",
+  "kinder_formEntryDateSelect": "Select entry date",
+  "kinder_formNotes": "Notes",
+  "kinder_formNotesHint": "Special notes, needs, etc.",
+  "kinder_formSave": "Save",
+  "kinder_formCreate": "Create child",
+
+  "kinder_detailNotFound": "Child not found.",
+  "kinder_detailDeleteTitle": "Delete child",
+  "kinder_detailDeleteConfirm": "Are you sure you want to delete {name}? This action cannot be undone.",
+  "@kinder_detailDeleteConfirm": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "kinder_detailTabMasterData": "Master data",
+  "kinder_detailTabAllergies": "Allergies ({count})",
+  "@kinder_detailTabAllergies": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "kinder_detailTabContacts": "Contacts ({count})",
+  "@kinder_detailTabContacts": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "kinder_detailBirthDate": "Date of birth",
+  "kinder_detailGender": "Gender",
+  "kinder_detailGroup": "Group",
+  "kinder_detailEntryDate": "Entry date",
+  "kinder_detailStatus": "Status",
+  "kinder_detailNotes": "Notes",
+  "kinder_detailNoAllergies": "No allergies recorded",
+  "kinder_detailAddAllergyHint": "Add known allergies...",
+  "kinder_detailAddAllergy": "Add allergy",
+  "kinder_detailRemoveAllergy": "Remove allergy",
+  "kinder_detailNoContacts": "No contact persons",
+  "kinder_detailAddContactHint": "Add contact persons...",
+  "kinder_detailAddContact": "Add contact",
+  "kinder_detailRemoveContact": "Remove contact",
+  "kinder_detailPickupAuthorized": "Authorised for pick-up",
+  "kinder_detailEmergencyContact": "Emergency contact",
+
+  "kinder_allergyFormTitle": "Add allergy",
+  "kinder_allergyFormAllergen": "Allergen *",
+  "kinder_allergyFormAllergenRequired": "Please select an allergen",
+  "kinder_allergyFormSeverity": "Severity",
+  "kinder_allergyFormHints": "Notes",
+  "kinder_allergyFormHintsPlaceholder": "e.g. reaction, emergency medication",
+
+  "kinder_contactFormEditTitle": "Edit contact",
+  "kinder_contactFormAddTitle": "Add contact",
+  "kinder_contactFormName": "Name *",
+  "kinder_contactFormNameRequired": "Please enter name",
+  "kinder_contactFormRelation": "Relationship *",
+  "kinder_contactFormRelationHint": "e.g. Mother, Father, Grandparents",
+  "kinder_contactFormRelationRequired": "Please enter relationship",
+  "kinder_contactFormPhone": "Phone",
+  "kinder_contactFormEmail": "Email",
+  "kinder_contactFormPickupAuthorized": "Authorised for pick-up",
+  "kinder_contactFormPickupDescription": "May collect the child from the institution",
+  "kinder_contactFormEmergencyContact": "Emergency contact",
+  "kinder_contactFormEmergencyDescription": "Will be contacted in an emergency",
+  "kinder_contactFormSave": "Save",
+
+  "anwesenheit_title": "Attendance",
+  "anwesenheit_all": "All",
+  "anwesenheit_markAllPresent": "Mark all as present",
+  "anwesenheit_alreadyPickedUp": "Already picked up or reported absent.",
+  "anwesenheit_allRecorded": "All children have already been recorded.",
+  "anwesenheit_markedPresent": "{count} children marked as present.",
+  "@anwesenheit_markedPresent": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "anwesenheit_notRecorded": "Not recorded",
+  "anwesenheit_presentSince": "Present since {time}",
+  "@anwesenheit_presentSince": {
+    "placeholders": {
+      "time": { "type": "String" }
+    }
+  },
+  "anwesenheit_pickedUp": "Picked up {time}",
+  "@anwesenheit_pickedUp": {
+    "placeholders": {
+      "time": { "type": "String" }
+    }
+  },
+  "anwesenheit_statsPresent": "Present",
+  "anwesenheit_statsAbsent": "Absent",
+  "anwesenheit_statsSick": "Sick",
+  "anwesenheit_statsTotal": "Total",
+  "anwesenheit_statusDialogTitle": "Change status",
+  "anwesenheit_statusDialogNote": "Note (optional)",
+  "anwesenheit_statusDialogSetStatus": "Set status",
+
+  "anwesenheit_sickNoteTitle": "Sick note",
+  "anwesenheit_sickNoteDescription": "Report your child as sick or excused.",
+  "anwesenheit_sickNoteDate": "Date",
+  "anwesenheit_sickNoteReason": "Reason *",
+  "anwesenheit_sickNoteMessage": "Message to the institution",
+  "anwesenheit_sickNoteMessageHint": "Optional message to the institution...",
+  "anwesenheit_sickNoteSend": "Send sick note",
+
+  "nachrichten_title": "Messages",
+  "nachrichten_all": "All",
+  "nachrichten_noMessages": "No messages",
+  "nachrichten_inboxEmpty": "Your inbox is empty.",
+  "nachrichten_noSentMessages": "No sent messages",
+  "nachrichten_noSentDescription": "You have not sent any messages yet.",
+  "nachrichten_noImportant": "No important messages",
+  "nachrichten_noImportantDescription": "There are no messages marked as important.",
+
+  "nachrichten_detailTitle": "Message",
+  "nachrichten_detailDeleteTitle": "Delete message",
+  "nachrichten_detailDeleteConfirm": "Are you sure you want to permanently delete this message?",
+  "nachrichten_detailNotFound": "Message not found.",
+  "nachrichten_detailAttachments": "Attachments",
+  "nachrichten_detailReadBy": "Read by {read}/{total}",
+  "@nachrichten_detailReadBy": {
+    "placeholders": {
+      "read": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "nachrichten_detailDeleteTooltip": "Delete message",
+
+  "nachrichten_formTitle": "New message",
+  "nachrichten_formType": "Type",
+  "nachrichten_formRecipients": "Recipients",
+  "nachrichten_formRecipientsAll": "All",
+  "nachrichten_formRecipientsGroup": "Group",
+  "nachrichten_formRecipientsIndividual": "Individual",
+  "nachrichten_formSelectGroup": "Select group",
+  "nachrichten_formSelectGroupHint": "Please select a group",
+  "nachrichten_formSelectGroupRequired": "Please select a group",
+  "nachrichten_formSelectRecipients": "Select recipients",
+  "nachrichten_formRecipientsSelected": "{count} recipients selected",
+  "@nachrichten_formRecipientsSelected": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "nachrichten_formSubject": "Subject",
+  "nachrichten_formSubjectHint": "Enter subject",
+  "nachrichten_formContent": "Content",
+  "nachrichten_formContentHint": "Enter message...",
+  "nachrichten_formMarkImportant": "Mark as important",
+  "nachrichten_formSend": "Send message",
+
+  "nachrichten_recipientDialogTitle": "Select recipients",
+  "nachrichten_recipientDialogSearch": "Search name or role...",
+  "nachrichten_recipientDialogNone": "Select none",
+  "nachrichten_recipientDialogAll": "Select all",
+  "nachrichten_recipientDialogConfirm": "Select {count} recipients",
+  "@nachrichten_recipientDialogConfirm": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "nachrichten_recipientDialogLoadError": "Profiles could not be loaded.",
+  "nachrichten_recipientDialogNoProfiles": "No profiles found.",
+  "nachrichten_recipientDialogNoResults": "No results for \"{query}\".",
+  "@nachrichten_recipientDialogNoResults": {
+    "placeholders": {
+      "query": { "type": "String" }
+    }
+  },
+
+  "nachrichten_attachmentDownload": "Download",
+  "nachrichten_attachmentRemove": "Remove",
+
+  "essensplan_title": "Meal Plan",
+  "essensplan_previousWeek": "Previous week",
+  "essensplan_nextWeek": "Next week",
+  "essensplan_currentWeek": "Current week",
+  "essensplan_noMealPlan": "No meal plan",
+  "essensplan_noMealsPlanned": "No meals have been planned for this week yet.",
+  "essensplan_deleteMeal": "Delete meal",
+
+  "essensplan_formEditTitle": "Edit meal",
+  "essensplan_formNewTitle": "New meal",
+  "essensplan_formDate": "Date",
+  "essensplan_formMealType": "Meal type",
+  "essensplan_formDishName": "Dish",
+  "essensplan_formDishNameRequired": "Please enter a dish name",
+  "essensplan_formDescription": "Description (optional)",
+  "essensplan_formAllergens": "Allergens (EU Regulation 1169/2011)",
+  "essensplan_formVegetarian": "Vegetarian",
+  "essensplan_formVegan": "Vegan",
+  "essensplan_formSave": "Save meal",
+
+  "essensplan_allergenWarnings": "Allergen warnings ({count})",
+  "@essensplan_allergenWarnings": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "essensplan_weekdayMonday": "Monday",
+  "essensplan_weekdayTuesday": "Tuesday",
+  "essensplan_weekdayWednesday": "Wednesday",
+  "essensplan_weekdayThursday": "Thursday",
+  "essensplan_weekdayFriday": "Friday",
+  "essensplan_weekdaySaturday": "Saturday",
+  "essensplan_weekdaySunday": "Sunday",
+
+  "eltern_homeTitle": "KitaFlow",
+  "eltern_homeMyChildren": "My Children",
+  "eltern_homeNoChildren": "No children linked yet.",
+  "eltern_homeQuickActions": "Quick actions",
+  "eltern_quickSickNote": "Sick note",
+  "eltern_quickMessage": "Message",
+  "eltern_quickCalendar": "Appointments",
+
+  "eltern_kindTitle": "My Child",
+  "eltern_kindTabProfile": "Profile",
+  "eltern_kindTabAttendance": "Attendance",
+  "eltern_kindTabAllergies": "Allergies",
+  "eltern_kindTabContacts": "Contacts",
+  "eltern_kindNoChildSelected": "No child selected.",
+  "eltern_kindBirthday": "Birthday",
+  "eltern_kindGender": "Gender",
+  "eltern_kindStatus": "Status",
+  "eltern_kindNoAllergies": "No allergies recorded.",
+  "eltern_kindAllergiesTitle": "Allergies & Intolerances",
+  "eltern_kindAttendanceTitle": "Attendance",
+  "eltern_kindAttendanceLoading": "Loading attendance calendar...",
+  "eltern_kindNoContacts": "No contact persons recorded.",
+  "eltern_kindContactsTitle": "Contact Persons",
+
+  "eltern_nachrichtenTitle": "Messages",
+  "eltern_nachrichtenLoading": "Loading messages…",
+  "eltern_nachrichtenEmpty": "No messages",
+  "eltern_nachrichtenEmptyDescription": "You have not received any messages yet.",
+
+  "termine_title": "Appointments",
+  "termine_noAppointments": "No appointments available.",
+  "termine_rsvpTitle": "RSVP",
+  "termine_rsvpFor": "For: {title}",
+  "@termine_rsvpFor": {
+    "placeholders": {
+      "title": { "type": "String" }
+    }
+  },
+  "termine_weekdayMon": "Mon",
+  "termine_weekdayTue": "Tue",
+  "termine_weekdayWed": "Wed",
+  "termine_weekdayThu": "Thu",
+  "termine_weekdayFri": "Fri",
+  "termine_weekdaySat": "Sat",
+  "termine_weekdaySun": "Sun",
+
+  "fotos_title": "Photos",
+  "fotos_noPhotos": "No photos available yet.",
+  "fotos_viewerTitle": "Photo",
+
+  "push_title": "Push Notifications",
+  "push_sectionNotifications": "Notifications",
+  "push_messages": "Messages",
+  "push_messagesDescription": "New messages and parent letters",
+  "push_attendance": "Attendance",
+  "push_attendanceDescription": "Changes to attendance status",
+  "push_appointments": "Appointments",
+  "push_appointmentsDescription": "New appointments and reminders",
+  "push_mealPlan": "Meal plan",
+  "push_mealPlanDescription": "Changes to the meal plan",
+  "push_emergency": "Emergency",
+  "push_emergencyDescription": "Important emergency notifications",
+  "push_sectionQuietHours": "Quiet hours",
+  "push_quietHoursDescription": "No notifications during this period",
+  "push_quietHoursFrom": "From",
+  "push_quietHoursTo": "To",
+
+  "verwaltung_title": "Administration",
+  "verwaltung_institution": "Institution",
+  "verwaltung_groupsTitle": "Groups & Classes",
+  "verwaltung_groupsCount": "{count} groups",
+  "@verwaltung_groupsCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "verwaltung_staffTitle": "Staff",
+  "verwaltung_staffCount": "{count} staff members",
+  "@verwaltung_staffCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "verwaltung_groupsListTitle": "Groups & Classes",
+  "verwaltung_groupsEmpty": "No groups available.",
+  "verwaltung_groupsOccupancyWithMax": "Occupancy: {current} / {max}",
+  "@verwaltung_groupsOccupancyWithMax": {
+    "placeholders": {
+      "current": { "type": "int" },
+      "max": { "type": "int" }
+    }
+  },
+  "verwaltung_groupsOccupancy": "Occupancy: {count} children",
+  "@verwaltung_groupsOccupancy": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "verwaltung_groupsInactive": "Inactive",
+
+  "verwaltung_groupFormEditTitle": "Edit group",
+  "verwaltung_groupFormNewTitle": "New group",
+  "verwaltung_groupFormName": "Name",
+  "verwaltung_groupFormNameRequired": "Name is required",
+  "verwaltung_groupFormType": "Type",
+  "verwaltung_groupFormTypeGroup": "Group",
+  "verwaltung_groupFormTypeClass": "Class",
+  "verwaltung_groupFormMaxChildren": "Max. children",
+  "verwaltung_groupFormAgeFrom": "Age from",
+  "verwaltung_groupFormAgeTo": "Age to",
+  "verwaltung_groupFormSchoolYear": "School year",
+  "verwaltung_groupFormColor": "Colour",
+  "verwaltung_groupFormActive": "Active",
+  "verwaltung_groupFormSave": "Save",
+  "verwaltung_groupFormCreate": "Create",
+
+  "verwaltung_staffListTitle": "Staff",
+  "verwaltung_staffEmpty": "No staff members available.",
+  "verwaltung_staffChangeRole": "Change role",
+  "verwaltung_staffAssignGroup": "Assign group",
+  "verwaltung_staffRemove": "Remove",
+  "verwaltung_staffNoGroup": "No group",
+  "verwaltung_staffRemoveTitle": "Remove staff member",
+  "verwaltung_staffRemoveConfirm": "Are you sure you want to remove {name} from the institution?",
+  "@verwaltung_staffRemoveConfirm": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+
+  "verwaltung_staffFormTitle": "Add staff member",
+  "verwaltung_staffFormEmail": "Email address",
+  "verwaltung_staffFormEmailRequired": "Email is required",
+  "verwaltung_staffFormEmailInvalid": "Invalid email address",
+  "verwaltung_staffFormRole": "Role",
+  "verwaltung_staffFormGroup": "Group (optional)",
+  "verwaltung_staffFormNoGroup": "No group",
+  "verwaltung_staffFormAdd": "Add",
+  "verwaltung_staffFormInvitePending": "Staff invitation via email will be implemented in a later phase.",
+
+  "verwaltung_institutionFormTitle": "Edit institution",
+  "verwaltung_institutionFormSectionGeneral": "General",
+  "verwaltung_institutionFormName": "Institution name",
+  "verwaltung_institutionFormNameRequired": "Please enter a name",
+  "verwaltung_institutionFormType": "Type",
+  "verwaltung_institutionFormTypeHint": "Select institution type",
+  "verwaltung_institutionFormTypeRequired": "Please select a type",
+  "verwaltung_institutionFormSectionAddress": "Address",
+  "verwaltung_institutionFormStreet": "Street & house number",
+  "verwaltung_institutionFormZip": "Postcode",
+  "verwaltung_institutionFormCity": "City",
+  "verwaltung_institutionFormState": "County",
+  "verwaltung_institutionFormSectionContact": "Contact",
+  "verwaltung_institutionFormPhone": "Phone",
+  "verwaltung_institutionFormEmail": "Email",
+  "verwaltung_institutionFormEmailInvalid": "Please enter a valid email",
+  "verwaltung_institutionFormWebsite": "Website",
+  "verwaltung_institutionFormSaveSuccess": "Institution saved successfully.",
+  "verwaltung_institutionFormSaveError": "Error saving.",
+  "verwaltung_institutionFormLoadError": "Error loading.",
+
+  "enum_roleErzieher": "Educator",
+  "enum_roleLehrer": "Teacher",
+  "enum_roleLeitung": "Director",
+  "enum_roleTraeger": "Provider",
+  "enum_roleEltern": "Parents",
+
+  "enum_institutionTypeKrippe": "Nursery",
+  "enum_institutionTypeKita": "Daycare",
+  "enum_institutionTypeGrundschule": "Primary School",
+  "enum_institutionTypeOgs": "After-School Care",
+  "enum_institutionTypeHort": "After-School Centre",
+
+  "enum_attendanceAnwesend": "Present",
+  "enum_attendanceAbwesend": "Absent",
+  "enum_attendanceKrank": "Sick",
+  "enum_attendanceUrlaub": "Holiday",
+  "enum_attendanceEntschuldigt": "Excused",
+  "enum_attendanceUnentschuldigt": "Unexcused",
+
+  "enum_messageTypeNachricht": "Message",
+  "enum_messageTypeElternbrief": "Parent letter",
+  "enum_messageTypeAnkuendigung": "Announcement",
+  "enum_messageTypeNotfall": "Emergency",
+
+  "enum_childStatusAktiv": "Active",
+  "enum_childStatusEingewoehnung": "Settling in",
+  "enum_childStatusAbgemeldet": "Deregistered",
+  "enum_childStatusWarteliste": "Waiting list",
+
+  "enum_mealTypeFruehstueck": "Breakfast",
+  "enum_mealTypeMittagessen": "Lunch",
+  "enum_mealTypeSnack": "Snack",
+
+  "enum_developmentMotorik": "Motor skills",
+  "enum_developmentSprache": "Language",
+  "enum_developmentSozialverhalten": "Social behaviour",
+  "enum_developmentKognitiv": "Cognitive development",
+  "enum_developmentEmotional": "Emotional development",
+  "enum_developmentKreativitaet": "Creativity",
+
+  "enum_allergenGluten": "Gluten",
+  "enum_allergenKrebstiere": "Crustaceans",
+  "enum_allergenEier": "Eggs",
+  "enum_allergenFisch": "Fish",
+  "enum_allergenErdnuesse": "Peanuts",
+  "enum_allergenSoja": "Soya",
+  "enum_allergenMilch": "Milk",
+  "enum_allergenSchalenfruechte": "Tree nuts",
+  "enum_allergenSellerie": "Celery",
+  "enum_allergenSenf": "Mustard",
+  "enum_allergenSesam": "Sesame",
+  "enum_allergenSchwefeldioxid": "Sulphur dioxide",
+  "enum_allergenLupinen": "Lupins",
+  "enum_allergenWeichtiere": "Molluscs",
+
+  "enum_allergySeverityLeicht": "Mild",
+  "enum_allergySeverityMittel": "Moderate",
+  "enum_allergySeveritySchwer": "Severe",
+  "enum_allergySeverityLebensbedrohlich": "Life-threatening",
+
+  "enum_documentTypeVertrag": "Contract",
+  "enum_documentTypeEinverstaendnis": "Consent form",
+  "enum_documentTypeAttest": "Medical certificate",
+  "enum_documentTypeZeugnis": "Report",
+  "enum_documentTypeSonstiges": "Other",
+
+  "enum_nachrichtenTabPosteingang": "Inbox",
+  "enum_nachrichtenTabGesendet": "Sent",
+  "enum_nachrichtenTabWichtig": "Important",
+
+  "enum_terminTypAllgemein": "General",
+  "enum_terminTypElternabend": "Parents' evening",
+  "enum_terminTypFestFeier": "Celebration",
+  "enum_terminTypSchliessung": "Closure",
+  "enum_terminTypAusflug": "Excursion",
+  "enum_terminTypSonstiges": "Other",
+
+  "enum_rsvpZugesagt": "Accepted",
+  "enum_rsvpAbgesagt": "Declined",
+  "enum_rsvpVielleicht": "Maybe",
+
+  "enum_elternBeziehungMutter": "Mother",
+  "enum_elternBeziehungVater": "Father",
+  "enum_elternBeziehungSorgeberechtigt": "Legal guardian",
+
+  "dashboard_monthJanuar": "January",
+  "dashboard_monthFebruar": "February",
+  "dashboard_monthMaerz": "March",
+  "dashboard_monthApril": "April",
+  "dashboard_monthMai": "May",
+  "dashboard_monthJuni": "June",
+  "dashboard_monthJuli": "July",
+  "dashboard_monthAugust": "August",
+  "dashboard_monthSeptember": "September",
+  "dashboard_monthOktober": "October",
+  "dashboard_monthNovember": "November",
+  "dashboard_monthDezember": "December",
+
+  "dashboard_weekdayMontag": "Monday",
+  "dashboard_weekdayDienstag": "Tuesday",
+  "dashboard_weekdayMittwoch": "Wednesday",
+  "dashboard_weekdayDonnerstag": "Thursday",
+  "dashboard_weekdayFreitag": "Friday",
+  "dashboard_weekdaySamstag": "Saturday",
+  "dashboard_weekdaySonntag": "Sunday",
+
+  "verwaltung_rolleDropdownErzieher": "Educator",
+  "verwaltung_rolleDropdownLehrer": "Teacher",
+  "verwaltung_rolleDropdownLeitung": "Director",
+
+  "common_language": "Language",
+
+  "dokumente_title": "Documents",
+  "dokumente_noDocuments": "No documents yet.",
+  "dokumente_upload": "Upload",
+  "dokumente_download": "Download",
+  "dokumente_delete": "Delete document",
+  "dokumente_deleteConfirm": "Are you sure you want to delete this document?",
+  "dokumente_filterAll": "All",
+  "dokumente_signed": "Signed",
+  "dokumente_unsigned": "Not signed",
+  "dokumente_signedBy": "Signed by {name} on {date}",
+  "@dokumente_signedBy": {
+    "placeholders": {
+      "name": {"type": "String"},
+      "date": {"type": "String"}
+    }
+  },
+  "dokumente_validUntil": "Valid until {date}",
+  "@dokumente_validUntil": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+  "dokumente_expired": "Expired",
+  "dokumente_sign": "Sign",
+  "dokumente_signTitle": "Sign document",
+  "dokumente_signClear": "Clear",
+  "dokumente_signConfirm": "Confirm signature",
+  "dokumente_signHint": "Sign here",
+  "dokumente_uploadSuccess": "Document uploaded successfully.",
+  "dokumente_uploadError": "Error uploading document.",
+  "dokumente_deleteSuccess": "Document deleted successfully.",
+  "dokumente_signSuccess": "Document signed successfully.",
+  "dokumente_pdfGenerate": "Generate PDF",
+  "dokumente_pdfPreview": "PDF preview",
+  "dokumente_formTitle": "New document",
+  "dokumente_formTitel": "Title",
+  "dokumente_formTyp": "Document type",
+  "dokumente_formBeschreibung": "Description",
+  "dokumente_formGueltigBis": "Valid until",
+  "dokumente_formKind": "Assign to child",
+  "dokumente_formKindOptional": "No child (general)",
+  "dokumente_formFile": "File",
+  "dokumente_formFileSelect": "Select file",
+  "dokumente_formFileSelected": "File selected: {filename}",
+  "@dokumente_formFileSelected": {
+    "placeholders": {
+      "filename": {"type": "String"}
+    }
+  },
+  "dokumente_count": "{count} documents",
+  "@dokumente_count": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "verwaltung_dokumenteTile": "Documents",
+
+  "verwaltung_eingewoehnungTile": "Settling-in",
+
+  "eingewoehnung_title": "Settling-in",
+  "eingewoehnung_subtitle": "Manage settling-in phase",
+  "eingewoehnung_count": "{count} settling-ins",
+  "@eingewoehnung_count": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "eingewoehnung_startdatum": "Start date",
+  "eingewoehnung_bezugsperson": "Key person",
+  "eingewoehnung_phasenFortschritt": "Phase progress",
+  "eingewoehnung_naechstePhase": "Next phase",
+  "eingewoehnung_phaseAendern": "Change phase",
+  "eingewoehnung_neueNotiz": "New daily note",
+  "eingewoehnung_dauer": "Duration (minutes)",
+  "eingewoehnung_trennungsverhalten": "Separation behaviour",
+  "eingewoehnung_essen": "Eating",
+  "eingewoehnung_schlaf": "Sleeping",
+  "eingewoehnung_spiel": "Playing",
+  "eingewoehnung_stimmung": "Mood",
+  "eingewoehnung_notizenIntern": "Internal notes",
+  "eingewoehnung_notizenEltern": "Notes for parents",
+  "eingewoehnung_notizenElternHinweis": "This note is visible to parents.",
+  "eingewoehnung_keineTagesnotizen": "No daily notes yet.",
+  "eingewoehnung_elternFeedback": "Parent feedback",
+  "eingewoehnung_feedbackFrage": "How are you experiencing your child's settling-in?",
+  "eingewoehnung_tage": "{count} days",
+  "@eingewoehnung_tage": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "eingewoehnung_notizGespeichert": "Daily note saved.",
+  "eingewoehnung_phaseGeaendert": "Phase changed successfully.",
+  "eingewoehnung_feedbackGespeichert": "Feedback saved.",
+  "eingewoehnung_keineAktiven": "No active settling-ins.",
+  "eingewoehnung_neueEingewoehnung": "New settling-in",
+  "eingewoehnung_kindAuswaehlen": "Select child",
+  "eingewoehnung_nurEingewoehnung": "Only children with status \u201cSettling-in\u201d",
+
+  "enum_phaseGrundphase": "Initial phase",
+  "enum_phaseStabilisierung": "Stabilisation",
+  "enum_phaseSchlussphase": "Final phase",
+  "enum_phaseAbgeschlossen": "Completed",
+
+  "enum_stimmungSehrGut": "Very good",
+  "enum_stimmungGut": "Good",
+  "enum_stimmungNeutral": "Neutral",
+  "enum_stimmungSchlecht": "Bad",
+  "enum_stimmungSehrSchlecht": "Very bad"
+}

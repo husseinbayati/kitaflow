@@ -1,0 +1,840 @@
+{
+  "@@locale": "ar",
+
+  "common_save": "حفظ",
+  "common_cancel": "إلغاء",
+  "common_delete": "حذف",
+  "common_edit": "تعديل",
+  "common_ok": "موافق",
+  "common_confirm": "تأكيد",
+  "common_back": "رجوع",
+  "common_next": "التالي",
+  "common_skip": "تخطي",
+  "common_close": "إغلاق",
+  "common_error": "خطأ",
+  "common_retry": "إعادة المحاولة",
+  "common_loading": "جارٍ التحميل...",
+  "common_showAll": "عرض الكل",
+  "common_noAccess": "لا يوجد صلاحية",
+  "common_noAccessDescription": "ليس لديك صلاحية للوصول إلى هذا القسم.",
+  "common_requiredField": "حقل مطلوب",
+  "common_all": "الكل",
+  "common_active": "نشط",
+  "common_inactive": "غير نشط",
+  "common_add": "إضافة",
+  "common_remove": "إزالة",
+  "common_create": "إنشاء",
+  "common_search": "بحث",
+  "common_email": "البريد الإلكتروني",
+  "common_phone": "الهاتف",
+  "common_notes": "ملاحظات",
+  "common_name": "الاسم",
+  "common_firstName": "الاسم الأول",
+  "common_lastName": "اسم العائلة",
+  "common_password": "كلمة المرور",
+  "common_date": "التاريخ",
+  "common_description": "الوصف",
+  "common_type": "النوع",
+  "common_group": "المجموعة",
+  "common_role": "الدور",
+  "common_color": "اللون",
+  "common_download": "تحميل",
+  "common_send": "إرسال",
+  "common_justNow": "الآن",
+  "common_minutesAgo": "منذ {minutes} دقيقة",
+  "@common_minutesAgo": {
+    "placeholders": {
+      "minutes": { "type": "int" }
+    }
+  },
+  "common_hoursAgo": "منذ {hours} ساعة",
+  "@common_hoursAgo": {
+    "placeholders": {
+      "hours": { "type": "int" }
+    }
+  },
+  "common_today": "اليوم",
+  "common_yesterday": "أمس",
+  "common_daysAgo": "منذ {days} أيام",
+  "@common_daysAgo": {
+    "placeholders": {
+      "days": { "type": "int" }
+    }
+  },
+  "common_yearsOld": "{years} سنوات",
+  "@common_yearsOld": {
+    "placeholders": {
+      "years": { "type": "int" }
+    }
+  },
+  "common_clock": "الساعة",
+
+  "auth_appName": "KitaFlow",
+  "auth_appInitials": "KF",
+  "auth_appTagline": "منصة تعليمية للأطفال من 0 إلى 10 سنوات",
+  "auth_appSlogan": "المنصة التعليمية للأطفال",
+  "auth_loginTitle": "تسجيل الدخول",
+  "auth_loginEmail": "البريد الإلكتروني",
+  "auth_loginEmailHint": "name@example.com",
+  "auth_loginEmailRequired": "يرجى إدخال البريد الإلكتروني",
+  "auth_loginEmailInvalid": "يرجى إدخال بريد إلكتروني صالح",
+  "auth_loginPassword": "كلمة المرور",
+  "auth_loginPasswordRequired": "يرجى إدخال كلمة المرور",
+  "auth_loginPasswordMinLength": "8 أحرف على الأقل",
+  "auth_forgotPassword": "نسيت كلمة المرور؟",
+  "auth_noAccount": "ليس لديك حساب؟",
+  "auth_register": "التسجيل",
+  "auth_alreadyHaveAccount": "لديك حساب بالفعل؟",
+
+  "auth_registerTitle": "إنشاء حساب",
+  "auth_registerSubtitle": "أنشئ حسابك في KitaFlow",
+  "auth_registerFirstName": "الاسم الأول",
+  "auth_registerFirstNameHint": "اسمك الأول",
+  "auth_registerFirstNameRequired": "يرجى إدخال اسمك الأول",
+  "auth_registerLastName": "اسم العائلة",
+  "auth_registerLastNameHint": "اسم عائلتك",
+  "auth_registerLastNameRequired": "يرجى إدخال اسم العائلة",
+  "auth_registerEmailHint": "your@email.com",
+  "auth_registerEmailRequired": "يرجى إدخال بريدك الإلكتروني",
+  "auth_registerEmailInvalid": "يرجى إدخال بريد إلكتروني صالح",
+  "auth_registerPasswordMinLength": "8 أحرف على الأقل",
+  "auth_registerPasswordRequired": "يرجى إدخال كلمة المرور",
+  "auth_registerPasswordTooShort": "يجب أن تكون كلمة المرور 8 أحرف على الأقل",
+  "auth_registerPasswordStrengthWeak": "ضعيفة",
+  "auth_registerPasswordStrengthMedium": "متوسطة",
+  "auth_registerPasswordStrengthStrong": "قوية",
+  "auth_registerConfirmPassword": "تأكيد كلمة المرور",
+  "auth_registerConfirmPasswordHint": "أعد إدخال كلمة المرور",
+  "auth_registerConfirmPasswordRequired": "يرجى تأكيد كلمة المرور",
+  "auth_registerPasswordMismatch": "كلمتا المرور غير متطابقتين",
+  "auth_registerRoleLabel": "الدور",
+  "auth_registerRoleHint": "اختر الدور",
+  "auth_registerRoleRequired": "يرجى اختيار دور",
+  "auth_registerAcceptTerms": "أوافق على الشروط والأحكام وسياسة الخصوصية",
+  "auth_registerTermsRequired": "يجب الموافقة على الشروط والأحكام وسياسة الخصوصية",
+
+  "auth_forgotPasswordTitle": "إعادة تعيين كلمة المرور",
+  "auth_forgotPasswordDescription": "أدخل بريدك الإلكتروني وسنرسل لك رابطاً لإعادة تعيين كلمة المرور.",
+  "auth_forgotPasswordSendLink": "إرسال الرابط",
+  "auth_forgotPasswordBackToLogin": "العودة لتسجيل الدخول",
+  "auth_forgotPasswordEmailSent": "تم إرسال البريد الإلكتروني!",
+  "auth_forgotPasswordCheckInbox": "تحقق من صندوق الوارد.",
+
+  "auth_verifyEmailTitle": "تأكيد البريد الإلكتروني",
+  "auth_verifyEmailSubtitle": "يرجى تأكيد بريدك الإلكتروني",
+  "auth_verifyEmailDescription": "لقد أرسلنا لك بريد تأكيد إلكتروني. انقر على الرابط في البريد لتفعيل حسابك.",
+  "auth_verifyEmailResend": "إعادة الإرسال",
+  "auth_verifyEmailResendCountdown": "إعادة الإرسال ({seconds} ثانية)",
+  "@auth_verifyEmailResendCountdown": {
+    "placeholders": {
+      "seconds": { "type": "int" }
+    }
+  },
+  "auth_verifyEmailBackToLogin": "العودة لتسجيل الدخول",
+  "auth_verifyEmailResent": "تم إعادة إرسال البريد الإلكتروني",
+
+  "shell_dashboard": "لوحة التحكم",
+  "shell_kinder": "الأطفال",
+  "shell_anwesenheit": "الحضور",
+  "shell_nachrichten": "الرسائل",
+  "shell_mehr": "المزيد",
+
+  "shell_elternHome": "الرئيسية",
+  "shell_elternNachrichten": "الرسائل",
+  "shell_elternTermine": "المواعيد",
+  "shell_elternMeinKind": "طفلي",
+  "shell_elternMehr": "المزيد",
+
+  "onboarding_institutionTitle": "إعداد المؤسسة",
+  "onboarding_institutionCreate": "إنشاء المؤسسة",
+  "onboarding_stepType": "اختيار نوع المؤسسة",
+  "onboarding_stepData": "بيانات المؤسسة",
+  "onboarding_stepGroups": "إنشاء المجموعات/الفصول",
+  "onboarding_stepStaff": "دعوة الموظفين",
+  "onboarding_selectTypePrompt": "يرجى اختيار نوع المؤسسة.",
+  "onboarding_nameRequired": "يرجى إدخال اسم المؤسسة.",
+  "onboarding_nameLabel": "اسم المؤسسة",
+  "onboarding_street": "الشارع",
+  "onboarding_zip": "الرمز البريدي",
+  "onboarding_city": "المدينة",
+  "onboarding_state": "الولاية",
+  "onboarding_phone": "الهاتف",
+  "onboarding_emailLabel": "البريد الإلكتروني",
+  "onboarding_maxChildren": "الحد الأقصى للأطفال",
+  "onboarding_color": "اللون",
+  "onboarding_addGroup": "إضافة مجموعة/فصل",
+  "onboarding_addInvitation": "إضافة دعوة",
+  "onboarding_creatingInstitution": "جارٍ إنشاء المؤسسة...",
+
+  "onboarding_parentTitle": "تسجيل أولياء الأمور",
+  "onboarding_parentLinkChild": "ربط الطفل",
+  "onboarding_parentCodeHint": "أدخل رمز الدعوة...",
+  "onboarding_parentCodeLabel": "رمز الدعوة",
+  "onboarding_parentCheckCode": "التحقق من الرمز",
+  "onboarding_parentInvitationFound": "تم العثور على الدعوة!",
+  "onboarding_parentAcceptInvitation": "قبول الدعوة",
+  "onboarding_parentWelcome": "مرحباً بك في KitaFlow!",
+  "onboarding_parentChildLinked": "تم ربط طفلك بنجاح.",
+  "onboarding_parentLetsGo": "هيا نبدأ",
+
+  "dashboard_title": "لوحة التحكم",
+  "dashboard_hints": "تنبيهات",
+  "dashboard_mealPlanToday": "قائمة الطعام اليوم",
+  "dashboard_messages": "الرسائل",
+  "dashboard_greetingMorning": "صباح الخير",
+  "dashboard_greetingAfternoon": "مساء الخير",
+  "dashboard_greetingEvening": "مساء الخير",
+  "dashboard_greetingWithName": "{greeting}، {name}!",
+  "@dashboard_greetingWithName": {
+    "placeholders": {
+      "greeting": { "type": "String" },
+      "name": { "type": "String" }
+    }
+  },
+  "dashboard_statsPresent": "حاضرون",
+  "dashboard_statsUnread": "غير مقروءة",
+  "dashboard_statsSick": "مرضى",
+  "dashboard_quickCheckIn": "تسجيل حضور",
+  "dashboard_quickMessage": "رسالة",
+  "dashboard_quickAddChild": "طفل +",
+  "dashboard_quickMessages": "الرسائل",
+  "dashboard_quickSickNote": "إبلاغ مرضي",
+  "dashboard_noMealPlan": "لا توجد قائمة طعام لليوم",
+  "dashboard_noNewMessages": "لا توجد رسائل جديدة",
+  "dashboard_birthdayAlert": "عيد ميلاد: {name}",
+  "@dashboard_birthdayAlert": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "dashboard_birthdayToday": "يبلغ اليوم {years} سنوات!",
+  "@dashboard_birthdayToday": {
+    "placeholders": {
+      "years": { "type": "int" }
+    }
+  },
+  "dashboard_birthdayUpcoming": "يبلغ {years} سنوات في {date}",
+  "@dashboard_birthdayUpcoming": {
+    "placeholders": {
+      "years": { "type": "int" },
+      "date": { "type": "String" }
+    }
+  },
+
+  "kinder_title": "الأطفال",
+  "kinder_search": "البحث عن أطفال...",
+  "kinder_notFound": "لم يتم العثور على أطفال",
+  "kinder_notFoundDescription": "لم يتم العثور على أطفال بالفلاتر الحالية.",
+  "kinder_addChild": "إضافة طفل",
+  "kinder_errorOccurred": "حدث خطأ.",
+
+  "kinder_formEditTitle": "تعديل بيانات الطفل",
+  "kinder_formNewTitle": "طفل جديد",
+  "kinder_formFirstName": "الاسم الأول *",
+  "kinder_formLastName": "اسم العائلة *",
+  "kinder_formFirstNameRequired": "يرجى إدخال الاسم الأول",
+  "kinder_formLastNameRequired": "يرجى إدخال اسم العائلة",
+  "kinder_formBirthDate": "تاريخ الميلاد *",
+  "kinder_formBirthDateSelect": "اختيار تاريخ الميلاد",
+  "kinder_formBirthDateRequired": "يرجى اختيار تاريخ الميلاد",
+  "kinder_formGender": "الجنس",
+  "kinder_formGenderSelect": "اختيار الجنس",
+  "kinder_formGenderMale": "ذكر",
+  "kinder_formGenderFemale": "أنثى",
+  "kinder_formGenderDiverse": "متنوع",
+  "kinder_formGroup": "المجموعة",
+  "kinder_formGroupSelect": "اختيار المجموعة",
+  "kinder_formEntryDate": "تاريخ الالتحاق",
+  "kinder_formEntryDateSelect": "اختيار تاريخ الالتحاق",
+  "kinder_formNotes": "ملاحظات",
+  "kinder_formNotesHint": "ملاحظات خاصة، احتياجات، إلخ.",
+  "kinder_formSave": "حفظ",
+  "kinder_formCreate": "إنشاء ملف الطفل",
+
+  "kinder_detailNotFound": "لم يتم العثور على الطفل.",
+  "kinder_detailDeleteTitle": "حذف الطفل",
+  "kinder_detailDeleteConfirm": "هل تريد حقاً حذف {name}؟ لا يمكن التراجع عن هذا الإجراء.",
+  "@kinder_detailDeleteConfirm": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "kinder_detailTabMasterData": "البيانات الأساسية",
+  "kinder_detailTabAllergies": "الحساسيات ({count})",
+  "@kinder_detailTabAllergies": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "kinder_detailTabContacts": "جهات الاتصال ({count})",
+  "@kinder_detailTabContacts": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "kinder_detailBirthDate": "تاريخ الميلاد",
+  "kinder_detailGender": "الجنس",
+  "kinder_detailGroup": "المجموعة",
+  "kinder_detailEntryDate": "تاريخ الالتحاق",
+  "kinder_detailStatus": "الحالة",
+  "kinder_detailNotes": "ملاحظات",
+  "kinder_detailNoAllergies": "لا توجد حساسيات مسجلة",
+  "kinder_detailAddAllergyHint": "أضف الحساسيات المعروفة...",
+  "kinder_detailAddAllergy": "إضافة حساسية",
+  "kinder_detailRemoveAllergy": "إزالة الحساسية",
+  "kinder_detailNoContacts": "لا توجد جهات اتصال",
+  "kinder_detailAddContactHint": "أضف جهات اتصال...",
+  "kinder_detailAddContact": "إضافة جهة اتصال",
+  "kinder_detailRemoveContact": "إزالة جهة الاتصال",
+  "kinder_detailPickupAuthorized": "مخوّل بالاستلام",
+  "kinder_detailEmergencyContact": "جهة اتصال طوارئ",
+
+  "kinder_allergyFormTitle": "إضافة حساسية",
+  "kinder_allergyFormAllergen": "المادة المسببة للحساسية *",
+  "kinder_allergyFormAllergenRequired": "يرجى اختيار مادة مسببة للحساسية",
+  "kinder_allergyFormSeverity": "درجة الخطورة",
+  "kinder_allergyFormHints": "ملاحظات",
+  "kinder_allergyFormHintsPlaceholder": "مثال: نوع التفاعل، أدوية الطوارئ",
+
+  "kinder_contactFormEditTitle": "تعديل جهة الاتصال",
+  "kinder_contactFormAddTitle": "إضافة جهة اتصال",
+  "kinder_contactFormName": "الاسم *",
+  "kinder_contactFormNameRequired": "يرجى إدخال الاسم",
+  "kinder_contactFormRelation": "صلة القرابة *",
+  "kinder_contactFormRelationHint": "مثال: أم، أب، أجداد",
+  "kinder_contactFormRelationRequired": "يرجى إدخال صلة القرابة",
+  "kinder_contactFormPhone": "الهاتف",
+  "kinder_contactFormEmail": "البريد الإلكتروني",
+  "kinder_contactFormPickupAuthorized": "مخوّل بالاستلام",
+  "kinder_contactFormPickupDescription": "يحق له استلام الطفل من المؤسسة",
+  "kinder_contactFormEmergencyContact": "جهة اتصال طوارئ",
+  "kinder_contactFormEmergencyDescription": "يتم التواصل معه في حالات الطوارئ",
+  "kinder_contactFormSave": "حفظ",
+
+  "anwesenheit_title": "الحضور",
+  "anwesenheit_all": "الكل",
+  "anwesenheit_markAllPresent": "تسجيل حضور الجميع",
+  "anwesenheit_alreadyPickedUp": "تم الاستلام أو تم الإبلاغ بالغياب.",
+  "anwesenheit_allRecorded": "تم تسجيل جميع الأطفال بالفعل.",
+  "anwesenheit_markedPresent": "تم تسجيل حضور {count} أطفال.",
+  "@anwesenheit_markedPresent": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "anwesenheit_notRecorded": "لم يُسجَّل",
+  "anwesenheit_presentSince": "حاضر منذ {time}",
+  "@anwesenheit_presentSince": {
+    "placeholders": {
+      "time": { "type": "String" }
+    }
+  },
+  "anwesenheit_pickedUp": "تم الاستلام {time}",
+  "@anwesenheit_pickedUp": {
+    "placeholders": {
+      "time": { "type": "String" }
+    }
+  },
+  "anwesenheit_statsPresent": "حاضرون",
+  "anwesenheit_statsAbsent": "غائبون",
+  "anwesenheit_statsSick": "مرضى",
+  "anwesenheit_statsTotal": "الإجمالي",
+  "anwesenheit_statusDialogTitle": "تغيير الحالة",
+  "anwesenheit_statusDialogNote": "ملاحظة (اختياري)",
+  "anwesenheit_statusDialogSetStatus": "تعيين الحالة",
+
+  "anwesenheit_sickNoteTitle": "إبلاغ مرضي",
+  "anwesenheit_sickNoteDescription": "أبلغ عن مرض طفلك أو اعتذر عن حضوره.",
+  "anwesenheit_sickNoteDate": "التاريخ",
+  "anwesenheit_sickNoteReason": "السبب *",
+  "anwesenheit_sickNoteMessage": "رسالة إلى المؤسسة",
+  "anwesenheit_sickNoteMessageHint": "رسالة اختيارية إلى المؤسسة...",
+  "anwesenheit_sickNoteSend": "إرسال الإبلاغ المرضي",
+
+  "nachrichten_title": "الرسائل",
+  "nachrichten_all": "الكل",
+  "nachrichten_noMessages": "لا توجد رسائل",
+  "nachrichten_inboxEmpty": "صندوق الوارد فارغ.",
+  "nachrichten_noSentMessages": "لا توجد رسائل مرسلة",
+  "nachrichten_noSentDescription": "لم ترسل أي رسائل بعد.",
+  "nachrichten_noImportant": "لا توجد رسائل مهمة",
+  "nachrichten_noImportantDescription": "لا توجد رسائل مُعلَّمة كمهمة.",
+
+  "nachrichten_detailTitle": "رسالة",
+  "nachrichten_detailDeleteTitle": "حذف الرسالة",
+  "nachrichten_detailDeleteConfirm": "هل تريد حقاً حذف هذه الرسالة نهائياً؟",
+  "nachrichten_detailNotFound": "لم يتم العثور على الرسالة.",
+  "nachrichten_detailAttachments": "المرفقات",
+  "nachrichten_detailReadBy": "قرأها {read}/{total}",
+  "@nachrichten_detailReadBy": {
+    "placeholders": {
+      "read": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "nachrichten_detailDeleteTooltip": "حذف الرسالة",
+
+  "nachrichten_formTitle": "رسالة جديدة",
+  "nachrichten_formType": "النوع",
+  "nachrichten_formRecipients": "المستلمون",
+  "nachrichten_formRecipientsAll": "الكل",
+  "nachrichten_formRecipientsGroup": "مجموعة",
+  "nachrichten_formRecipientsIndividual": "فردي",
+  "nachrichten_formSelectGroup": "اختيار المجموعة",
+  "nachrichten_formSelectGroupHint": "يرجى اختيار مجموعة",
+  "nachrichten_formSelectGroupRequired": "يرجى اختيار مجموعة",
+  "nachrichten_formSelectRecipients": "اختيار المستلمين",
+  "nachrichten_formRecipientsSelected": "تم اختيار {count} مستلمين",
+  "@nachrichten_formRecipientsSelected": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "nachrichten_formSubject": "الموضوع",
+  "nachrichten_formSubjectHint": "أدخل الموضوع",
+  "nachrichten_formContent": "المحتوى",
+  "nachrichten_formContentHint": "اكتب الرسالة...",
+  "nachrichten_formMarkImportant": "تحديد كمهمة",
+  "nachrichten_formSend": "إرسال الرسالة",
+
+  "nachrichten_recipientDialogTitle": "اختيار المستلمين",
+  "nachrichten_recipientDialogSearch": "البحث بالاسم أو الدور...",
+  "nachrichten_recipientDialogNone": "إلغاء تحديد الكل",
+  "nachrichten_recipientDialogAll": "تحديد الكل",
+  "nachrichten_recipientDialogConfirm": "اختيار {count} مستلمين",
+  "@nachrichten_recipientDialogConfirm": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "nachrichten_recipientDialogLoadError": "تعذر تحميل الملفات الشخصية.",
+  "nachrichten_recipientDialogNoProfiles": "لم يتم العثور على ملفات شخصية.",
+  "nachrichten_recipientDialogNoResults": "لا توجد نتائج لـ \"{query}\".",
+  "@nachrichten_recipientDialogNoResults": {
+    "placeholders": {
+      "query": { "type": "String" }
+    }
+  },
+
+  "nachrichten_attachmentDownload": "تحميل",
+  "nachrichten_attachmentRemove": "إزالة",
+
+  "essensplan_title": "قائمة الطعام",
+  "essensplan_previousWeek": "الأسبوع السابق",
+  "essensplan_nextWeek": "الأسبوع التالي",
+  "essensplan_currentWeek": "الأسبوع الحالي",
+  "essensplan_noMealPlan": "لا توجد قائمة طعام",
+  "essensplan_noMealsPlanned": "لم يتم تخطيط وجبات لهذا الأسبوع بعد.",
+  "essensplan_deleteMeal": "حذف الوجبة",
+
+  "essensplan_formEditTitle": "تعديل الوجبة",
+  "essensplan_formNewTitle": "وجبة جديدة",
+  "essensplan_formDate": "التاريخ",
+  "essensplan_formMealType": "نوع الوجبة",
+  "essensplan_formDishName": "اسم الطبق",
+  "essensplan_formDishNameRequired": "يرجى إدخال اسم الطبق",
+  "essensplan_formDescription": "الوصف (اختياري)",
+  "essensplan_formAllergens": "مسببات الحساسية (لائحة الاتحاد الأوروبي 1169/2011)",
+  "essensplan_formVegetarian": "نباتي",
+  "essensplan_formVegan": "نباتي صرف",
+  "essensplan_formSave": "حفظ الوجبة",
+
+  "essensplan_allergenWarnings": "تحذيرات الحساسية ({count})",
+  "@essensplan_allergenWarnings": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "essensplan_weekdayMonday": "الإثنين",
+  "essensplan_weekdayTuesday": "الثلاثاء",
+  "essensplan_weekdayWednesday": "الأربعاء",
+  "essensplan_weekdayThursday": "الخميس",
+  "essensplan_weekdayFriday": "الجمعة",
+  "essensplan_weekdaySaturday": "السبت",
+  "essensplan_weekdaySunday": "الأحد",
+
+  "eltern_homeTitle": "KitaFlow",
+  "eltern_homeMyChildren": "أطفالي",
+  "eltern_homeNoChildren": "لم يتم ربط أي أطفال بعد.",
+  "eltern_homeQuickActions": "إجراءات سريعة",
+  "eltern_quickSickNote": "إبلاغ مرضي",
+  "eltern_quickMessage": "رسالة",
+  "eltern_quickCalendar": "المواعيد",
+
+  "eltern_kindTitle": "طفلي",
+  "eltern_kindTabProfile": "الملف الشخصي",
+  "eltern_kindTabAttendance": "الحضور",
+  "eltern_kindTabAllergies": "الحساسيات",
+  "eltern_kindTabContacts": "جهات الاتصال",
+  "eltern_kindNoChildSelected": "لم يتم اختيار طفل.",
+  "eltern_kindBirthday": "تاريخ الميلاد",
+  "eltern_kindGender": "الجنس",
+  "eltern_kindStatus": "الحالة",
+  "eltern_kindNoAllergies": "لا توجد حساسيات مسجلة.",
+  "eltern_kindAllergiesTitle": "الحساسيات وعدم التحمل",
+  "eltern_kindAttendanceTitle": "الحضور",
+  "eltern_kindAttendanceLoading": "جارٍ تحميل سجل الحضور...",
+  "eltern_kindNoContacts": "لا توجد جهات اتصال مسجلة.",
+  "eltern_kindContactsTitle": "جهات الاتصال",
+
+  "eltern_nachrichtenTitle": "الرسائل",
+  "eltern_nachrichtenLoading": "جارٍ تحميل الرسائل…",
+  "eltern_nachrichtenEmpty": "لا توجد رسائل",
+  "eltern_nachrichtenEmptyDescription": "لم تتلقَّ أي رسائل بعد.",
+
+  "termine_title": "المواعيد",
+  "termine_noAppointments": "لا توجد مواعيد.",
+  "termine_rsvpTitle": "الرد على الدعوة",
+  "termine_rsvpFor": "بخصوص: {title}",
+  "@termine_rsvpFor": {
+    "placeholders": {
+      "title": { "type": "String" }
+    }
+  },
+  "termine_weekdayMon": "إث",
+  "termine_weekdayTue": "ثل",
+  "termine_weekdayWed": "أر",
+  "termine_weekdayThu": "خم",
+  "termine_weekdayFri": "جم",
+  "termine_weekdaySat": "سب",
+  "termine_weekdaySun": "أح",
+
+  "fotos_title": "الصور",
+  "fotos_noPhotos": "لا توجد صور بعد.",
+  "fotos_viewerTitle": "صورة",
+
+  "push_title": "الإشعارات الفورية",
+  "push_sectionNotifications": "الإشعارات",
+  "push_messages": "الرسائل",
+  "push_messagesDescription": "الرسائل الجديدة والنشرات",
+  "push_attendance": "الحضور",
+  "push_attendanceDescription": "تغييرات في حالة الحضور",
+  "push_appointments": "المواعيد",
+  "push_appointmentsDescription": "مواعيد جديدة وتذكيرات",
+  "push_mealPlan": "قائمة الطعام",
+  "push_mealPlanDescription": "تغييرات في قائمة الطعام",
+  "push_emergency": "طوارئ",
+  "push_emergencyDescription": "إشعارات الطوارئ المهمة",
+  "push_sectionQuietHours": "أوقات الهدوء",
+  "push_quietHoursDescription": "لن تصلك إشعارات خلال هذه الفترة",
+  "push_quietHoursFrom": "من",
+  "push_quietHoursTo": "إلى",
+
+  "verwaltung_title": "الإدارة",
+  "verwaltung_institution": "المؤسسة",
+  "verwaltung_groupsTitle": "المجموعات والفصول",
+  "verwaltung_groupsCount": "{count} مجموعات",
+  "@verwaltung_groupsCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "verwaltung_staffTitle": "الموظفون",
+  "verwaltung_staffCount": "{count} موظفين",
+  "@verwaltung_staffCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "verwaltung_groupsListTitle": "المجموعات والفصول",
+  "verwaltung_groupsEmpty": "لا توجد مجموعات.",
+  "verwaltung_groupsOccupancyWithMax": "الإشغال: {current} / {max}",
+  "@verwaltung_groupsOccupancyWithMax": {
+    "placeholders": {
+      "current": { "type": "int" },
+      "max": { "type": "int" }
+    }
+  },
+  "verwaltung_groupsOccupancy": "الإشغال: {count} أطفال",
+  "@verwaltung_groupsOccupancy": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "verwaltung_groupsInactive": "غير نشط",
+
+  "verwaltung_groupFormEditTitle": "تعديل المجموعة",
+  "verwaltung_groupFormNewTitle": "مجموعة جديدة",
+  "verwaltung_groupFormName": "الاسم",
+  "verwaltung_groupFormNameRequired": "الاسم مطلوب",
+  "verwaltung_groupFormType": "النوع",
+  "verwaltung_groupFormTypeGroup": "مجموعة",
+  "verwaltung_groupFormTypeClass": "فصل",
+  "verwaltung_groupFormMaxChildren": "الحد الأقصى للأطفال",
+  "verwaltung_groupFormAgeFrom": "العمر من",
+  "verwaltung_groupFormAgeTo": "العمر إلى",
+  "verwaltung_groupFormSchoolYear": "السنة الدراسية",
+  "verwaltung_groupFormColor": "اللون",
+  "verwaltung_groupFormActive": "نشط",
+  "verwaltung_groupFormSave": "حفظ",
+  "verwaltung_groupFormCreate": "إنشاء",
+
+  "verwaltung_staffListTitle": "الموظفون",
+  "verwaltung_staffEmpty": "لا يوجد موظفون.",
+  "verwaltung_staffChangeRole": "تغيير الدور",
+  "verwaltung_staffAssignGroup": "تعيين مجموعة",
+  "verwaltung_staffRemove": "إزالة",
+  "verwaltung_staffNoGroup": "بدون مجموعة",
+  "verwaltung_staffRemoveTitle": "إزالة الموظف",
+  "verwaltung_staffRemoveConfirm": "هل تريد حقاً إزالة {name} من المؤسسة؟",
+  "@verwaltung_staffRemoveConfirm": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+
+  "verwaltung_staffFormTitle": "إضافة موظف",
+  "verwaltung_staffFormEmail": "البريد الإلكتروني",
+  "verwaltung_staffFormEmailRequired": "البريد الإلكتروني مطلوب",
+  "verwaltung_staffFormEmailInvalid": "بريد إلكتروني غير صالح",
+  "verwaltung_staffFormRole": "الدور",
+  "verwaltung_staffFormGroup": "المجموعة (اختياري)",
+  "verwaltung_staffFormNoGroup": "بدون مجموعة",
+  "verwaltung_staffFormAdd": "إضافة",
+  "verwaltung_staffFormInvitePending": "سيتم تنفيذ دعوة الموظفين عبر البريد الإلكتروني في مرحلة لاحقة.",
+
+  "verwaltung_institutionFormTitle": "تعديل المؤسسة",
+  "verwaltung_institutionFormSectionGeneral": "عام",
+  "verwaltung_institutionFormName": "اسم المؤسسة",
+  "verwaltung_institutionFormNameRequired": "يرجى إدخال الاسم",
+  "verwaltung_institutionFormType": "النوع",
+  "verwaltung_institutionFormTypeHint": "اختيار نوع المؤسسة",
+  "verwaltung_institutionFormTypeRequired": "يرجى اختيار النوع",
+  "verwaltung_institutionFormSectionAddress": "العنوان",
+  "verwaltung_institutionFormStreet": "الشارع ورقم المبنى",
+  "verwaltung_institutionFormZip": "الرمز البريدي",
+  "verwaltung_institutionFormCity": "المدينة",
+  "verwaltung_institutionFormState": "الولاية",
+  "verwaltung_institutionFormSectionContact": "التواصل",
+  "verwaltung_institutionFormPhone": "الهاتف",
+  "verwaltung_institutionFormEmail": "البريد الإلكتروني",
+  "verwaltung_institutionFormEmailInvalid": "يرجى إدخال بريد إلكتروني صالح",
+  "verwaltung_institutionFormWebsite": "الموقع الإلكتروني",
+  "verwaltung_institutionFormSaveSuccess": "تم حفظ المؤسسة بنجاح.",
+  "verwaltung_institutionFormSaveError": "خطأ أثناء الحفظ.",
+  "verwaltung_institutionFormLoadError": "خطأ أثناء التحميل.",
+
+  "enum_roleErzieher": "مربي/ة",
+  "enum_roleLehrer": "معلم/ة",
+  "enum_roleLeitung": "إدارة",
+  "enum_roleTraeger": "جهة راعية",
+  "enum_roleEltern": "أولياء الأمور",
+
+  "enum_institutionTypeKrippe": "حضانة",
+  "enum_institutionTypeKita": "روضة أطفال",
+  "enum_institutionTypeGrundschule": "مدرسة ابتدائية",
+  "enum_institutionTypeOgs": "رعاية ما بعد المدرسة",
+  "enum_institutionTypeHort": "نادي ما بعد المدرسة",
+
+  "enum_attendanceAnwesend": "حاضر",
+  "enum_attendanceAbwesend": "غائب",
+  "enum_attendanceKrank": "مريض",
+  "enum_attendanceUrlaub": "إجازة",
+  "enum_attendanceEntschuldigt": "معذور",
+  "enum_attendanceUnentschuldigt": "غير معذور",
+
+  "enum_messageTypeNachricht": "رسالة",
+  "enum_messageTypeElternbrief": "نشرة أولياء الأمور",
+  "enum_messageTypeAnkuendigung": "إعلان",
+  "enum_messageTypeNotfall": "طوارئ",
+
+  "enum_childStatusAktiv": "نشط",
+  "enum_childStatusEingewoehnung": "فترة التأقلم",
+  "enum_childStatusAbgemeldet": "مسجّل الخروج",
+  "enum_childStatusWarteliste": "قائمة الانتظار",
+
+  "enum_mealTypeFruehstueck": "فطور",
+  "enum_mealTypeMittagessen": "غداء",
+  "enum_mealTypeSnack": "وجبة خفيفة",
+
+  "enum_developmentMotorik": "المهارات الحركية",
+  "enum_developmentSprache": "اللغة",
+  "enum_developmentSozialverhalten": "السلوك الاجتماعي",
+  "enum_developmentKognitiv": "التطور المعرفي",
+  "enum_developmentEmotional": "التطور العاطفي",
+  "enum_developmentKreativitaet": "الإبداع",
+
+  "enum_allergenGluten": "الغلوتين",
+  "enum_allergenKrebstiere": "القشريات",
+  "enum_allergenEier": "البيض",
+  "enum_allergenFisch": "السمك",
+  "enum_allergenErdnuesse": "الفول السوداني",
+  "enum_allergenSoja": "الصويا",
+  "enum_allergenMilch": "الحليب",
+  "enum_allergenSchalenfruechte": "المكسرات",
+  "enum_allergenSellerie": "الكرفس",
+  "enum_allergenSenf": "الخردل",
+  "enum_allergenSesam": "السمسم",
+  "enum_allergenSchwefeldioxid": "ثاني أكسيد الكبريت",
+  "enum_allergenLupinen": "الترمس",
+  "enum_allergenWeichtiere": "الرخويات",
+
+  "enum_allergySeverityLeicht": "خفيف",
+  "enum_allergySeverityMittel": "متوسط",
+  "enum_allergySeveritySchwer": "شديد",
+  "enum_allergySeverityLebensbedrohlich": "مهدد للحياة",
+
+  "enum_documentTypeVertrag": "عقد",
+  "enum_documentTypeEinverstaendnis": "إقرار موافقة",
+  "enum_documentTypeAttest": "شهادة طبية",
+  "enum_documentTypeZeugnis": "شهادة",
+  "enum_documentTypeSonstiges": "أخرى",
+
+  "enum_nachrichtenTabPosteingang": "صندوق الوارد",
+  "enum_nachrichtenTabGesendet": "المرسلة",
+  "enum_nachrichtenTabWichtig": "مهمة",
+
+  "enum_terminTypAllgemein": "عام",
+  "enum_terminTypElternabend": "اجتماع أولياء الأمور",
+  "enum_terminTypFestFeier": "حفل/احتفال",
+  "enum_terminTypSchliessung": "إغلاق",
+  "enum_terminTypAusflug": "رحلة",
+  "enum_terminTypSonstiges": "أخرى",
+
+  "enum_rsvpZugesagt": "تأكيد الحضور",
+  "enum_rsvpAbgesagt": "اعتذار",
+  "enum_rsvpVielleicht": "ربما",
+
+  "enum_elternBeziehungMutter": "أم",
+  "enum_elternBeziehungVater": "أب",
+  "enum_elternBeziehungSorgeberechtigt": "ولي أمر",
+
+  "dashboard_monthJanuar": "يناير",
+  "dashboard_monthFebruar": "فبراير",
+  "dashboard_monthMaerz": "مارس",
+  "dashboard_monthApril": "أبريل",
+  "dashboard_monthMai": "مايو",
+  "dashboard_monthJuni": "يونيو",
+  "dashboard_monthJuli": "يوليو",
+  "dashboard_monthAugust": "أغسطس",
+  "dashboard_monthSeptember": "سبتمبر",
+  "dashboard_monthOktober": "أكتوبر",
+  "dashboard_monthNovember": "نوفمبر",
+  "dashboard_monthDezember": "ديسمبر",
+
+  "dashboard_weekdayMontag": "الإثنين",
+  "dashboard_weekdayDienstag": "الثلاثاء",
+  "dashboard_weekdayMittwoch": "الأربعاء",
+  "dashboard_weekdayDonnerstag": "الخميس",
+  "dashboard_weekdayFreitag": "الجمعة",
+  "dashboard_weekdaySamstag": "السبت",
+  "dashboard_weekdaySonntag": "الأحد",
+
+  "verwaltung_rolleDropdownErzieher": "مربي/ة",
+  "verwaltung_rolleDropdownLehrer": "معلم/ة",
+  "verwaltung_rolleDropdownLeitung": "إدارة",
+
+  "common_language": "اللغة",
+
+  "dokumente_title": "المستندات",
+  "dokumente_noDocuments": "لا توجد مستندات بعد.",
+  "dokumente_upload": "رفع",
+  "dokumente_download": "تنزيل",
+  "dokumente_delete": "حذف المستند",
+  "dokumente_deleteConfirm": "هل تريد حقاً حذف هذا المستند؟",
+  "dokumente_filterAll": "الكل",
+  "dokumente_signed": "موقّع",
+  "dokumente_unsigned": "غير موقّع",
+  "dokumente_signedBy": "وقّعه {name} في {date}",
+  "@dokumente_signedBy": {
+    "placeholders": {
+      "name": {"type": "String"},
+      "date": {"type": "String"}
+    }
+  },
+  "dokumente_validUntil": "صالح حتى {date}",
+  "@dokumente_validUntil": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+  "dokumente_expired": "منتهي الصلاحية",
+  "dokumente_sign": "توقيع",
+  "dokumente_signTitle": "توقيع المستند",
+  "dokumente_signClear": "مسح",
+  "dokumente_signConfirm": "تأكيد التوقيع",
+  "dokumente_signHint": "وقّع هنا",
+  "dokumente_uploadSuccess": "تم رفع المستند بنجاح.",
+  "dokumente_uploadError": "خطأ أثناء رفع المستند.",
+  "dokumente_deleteSuccess": "تم حذف المستند بنجاح.",
+  "dokumente_signSuccess": "تم توقيع المستند بنجاح.",
+  "dokumente_pdfGenerate": "إنشاء PDF",
+  "dokumente_pdfPreview": "معاينة PDF",
+  "dokumente_formTitle": "مستند جديد",
+  "dokumente_formTitel": "العنوان",
+  "dokumente_formTyp": "نوع المستند",
+  "dokumente_formBeschreibung": "الوصف",
+  "dokumente_formGueltigBis": "صالح حتى",
+  "dokumente_formKind": "تعيين لطفل",
+  "dokumente_formKindOptional": "بدون طفل (عام)",
+  "dokumente_formFile": "ملف",
+  "dokumente_formFileSelect": "اختيار ملف",
+  "dokumente_formFileSelected": "تم اختيار الملف: {filename}",
+  "@dokumente_formFileSelected": {
+    "placeholders": {
+      "filename": {"type": "String"}
+    }
+  },
+  "dokumente_count": "{count} مستندات",
+  "@dokumente_count": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "verwaltung_dokumenteTile": "المستندات",
+
+  "verwaltung_eingewoehnungTile": "التأقلم",
+
+  "eingewoehnung_title": "التأقلم",
+  "eingewoehnung_subtitle": "إدارة مرحلة التأقلم",
+  "eingewoehnung_count": "{count} تأقلمات",
+  "@eingewoehnung_count": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "eingewoehnung_startdatum": "تاريخ البدء",
+  "eingewoehnung_bezugsperson": "الشخص المرجعي",
+  "eingewoehnung_phasenFortschritt": "تقدم المراحل",
+  "eingewoehnung_naechstePhase": "المرحلة التالية",
+  "eingewoehnung_phaseAendern": "تغيير المرحلة",
+  "eingewoehnung_neueNotiz": "ملاحظة يومية جديدة",
+  "eingewoehnung_dauer": "المدة (بالدقائق)",
+  "eingewoehnung_trennungsverhalten": "سلوك الانفصال",
+  "eingewoehnung_essen": "الأكل",
+  "eingewoehnung_schlaf": "النوم",
+  "eingewoehnung_spiel": "اللعب",
+  "eingewoehnung_stimmung": "المزاج",
+  "eingewoehnung_notizenIntern": "ملاحظات داخلية",
+  "eingewoehnung_notizenEltern": "ملاحظات للوالدين",
+  "eingewoehnung_notizenElternHinweis": "هذه الملاحظة مرئية للوالدين.",
+  "eingewoehnung_keineTagesnotizen": "لا توجد ملاحظات يومية بعد.",
+  "eingewoehnung_elternFeedback": "ملاحظات الوالدين",
+  "eingewoehnung_feedbackFrage": "كيف تختبرون مرحلة تأقلم طفلكم؟",
+  "eingewoehnung_tage": "{count} أيام",
+  "@eingewoehnung_tage": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "eingewoehnung_notizGespeichert": "تم حفظ الملاحظة اليومية.",
+  "eingewoehnung_phaseGeaendert": "تم تغيير المرحلة بنجاح.",
+  "eingewoehnung_feedbackGespeichert": "تم حفظ الملاحظات.",
+  "eingewoehnung_keineAktiven": "لا توجد تأقلمات نشطة.",
+  "eingewoehnung_neueEingewoehnung": "تأقلم جديد",
+  "eingewoehnung_kindAuswaehlen": "اختيار الطفل",
+  "eingewoehnung_nurEingewoehnung": "فقط الأطفال بحالة ‚التأقلم'",
+
+  "enum_phaseGrundphase": "المرحلة الأساسية",
+  "enum_phaseStabilisierung": "الاستقرار",
+  "enum_phaseSchlussphase": "المرحلة النهائية",
+  "enum_phaseAbgeschlossen": "مكتمل",
+
+  "enum_stimmungSehrGut": "جيد جداً",
+  "enum_stimmungGut": "جيد",
+  "enum_stimmungNeutral": "محايد",
+  "enum_stimmungSchlecht": "سيئ",
+  "enum_stimmungSehrSchlecht": "سيئ جداً"
+}

@@ -1,0 +1,840 @@
+{
+  "@@locale": "tr",
+
+  "common_save": "Kaydet",
+  "common_cancel": "İptal",
+  "common_delete": "Sil",
+  "common_edit": "Düzenle",
+  "common_ok": "Tamam",
+  "common_confirm": "Onayla",
+  "common_back": "Geri",
+  "common_next": "İleri",
+  "common_skip": "Atla",
+  "common_close": "Kapat",
+  "common_error": "Hata",
+  "common_retry": "Tekrar dene",
+  "common_loading": "Yükleniyor...",
+  "common_showAll": "Tümünü göster",
+  "common_noAccess": "Erişim yok",
+  "common_noAccessDescription": "Bu alana erişim izniniz bulunmamaktadır.",
+  "common_requiredField": "Zorunlu alan",
+  "common_all": "Tümü",
+  "common_active": "Aktif",
+  "common_inactive": "Pasif",
+  "common_add": "Ekle",
+  "common_remove": "Kaldır",
+  "common_create": "Oluştur",
+  "common_search": "Ara",
+  "common_email": "E-posta",
+  "common_phone": "Telefon",
+  "common_notes": "Notlar",
+  "common_name": "Ad",
+  "common_firstName": "Ad",
+  "common_lastName": "Soyad",
+  "common_password": "Şifre",
+  "common_date": "Tarih",
+  "common_description": "Açıklama",
+  "common_type": "Tür",
+  "common_group": "Grup",
+  "common_role": "Rol",
+  "common_color": "Renk",
+  "common_download": "İndir",
+  "common_send": "Gönder",
+  "common_justNow": "Az önce",
+  "common_minutesAgo": "{minutes} dk. önce",
+  "@common_minutesAgo": {
+    "placeholders": {
+      "minutes": { "type": "int" }
+    }
+  },
+  "common_hoursAgo": "{hours} sa. önce",
+  "@common_hoursAgo": {
+    "placeholders": {
+      "hours": { "type": "int" }
+    }
+  },
+  "common_today": "Bugün",
+  "common_yesterday": "Dün",
+  "common_daysAgo": "{days} gün önce",
+  "@common_daysAgo": {
+    "placeholders": {
+      "days": { "type": "int" }
+    }
+  },
+  "common_yearsOld": "{years} yaşında",
+  "@common_yearsOld": {
+    "placeholders": {
+      "years": { "type": "int" }
+    }
+  },
+  "common_clock": "Saat",
+
+  "auth_appName": "KitaFlow",
+  "auth_appInitials": "KF",
+  "auth_appTagline": "0–10 yaş arası çocuklar için eğitim platformu",
+  "auth_appSlogan": "Çocuklar için eğitim platformu",
+  "auth_loginTitle": "Giriş Yap",
+  "auth_loginEmail": "E-posta",
+  "auth_loginEmailHint": "ad@ornek.com",
+  "auth_loginEmailRequired": "Lütfen e-posta adresinizi girin",
+  "auth_loginEmailInvalid": "Lütfen geçerli bir e-posta adresi girin",
+  "auth_loginPassword": "Şifre",
+  "auth_loginPasswordRequired": "Lütfen şifrenizi girin",
+  "auth_loginPasswordMinLength": "En az 8 karakter",
+  "auth_forgotPassword": "Şifremi unuttum?",
+  "auth_noAccount": "Henüz hesabınız yok mu?",
+  "auth_register": "Kayıt Ol",
+  "auth_alreadyHaveAccount": "Zaten bir hesabınız var mı?",
+
+  "auth_registerTitle": "Hesap oluştur",
+  "auth_registerSubtitle": "KitaFlow hesabını oluştur",
+  "auth_registerFirstName": "Ad",
+  "auth_registerFirstNameHint": "Adın",
+  "auth_registerFirstNameRequired": "Lütfen adını gir",
+  "auth_registerLastName": "Soyad",
+  "auth_registerLastNameHint": "Soyadın",
+  "auth_registerLastNameRequired": "Lütfen soyadını gir",
+  "auth_registerEmailHint": "senin@eposta.com",
+  "auth_registerEmailRequired": "Lütfen e-posta adresini gir",
+  "auth_registerEmailInvalid": "Lütfen geçerli bir e-posta adresi gir",
+  "auth_registerPasswordMinLength": "En az 8 karakter",
+  "auth_registerPasswordRequired": "Lütfen bir şifre gir",
+  "auth_registerPasswordTooShort": "Şifre en az 8 karakter uzunluğunda olmalıdır",
+  "auth_registerPasswordStrengthWeak": "Zayıf",
+  "auth_registerPasswordStrengthMedium": "Orta",
+  "auth_registerPasswordStrengthStrong": "Güçlü",
+  "auth_registerConfirmPassword": "Şifreyi onayla",
+  "auth_registerConfirmPasswordHint": "Şifreyi tekrarla",
+  "auth_registerConfirmPasswordRequired": "Lütfen şifreni onayla",
+  "auth_registerPasswordMismatch": "Şifreler eşleşmiyor",
+  "auth_registerRoleLabel": "Rol",
+  "auth_registerRoleHint": "Rol seç",
+  "auth_registerRoleRequired": "Lütfen bir rol seç",
+  "auth_registerAcceptTerms": "Kullanım koşullarını ve gizlilik politikasını kabul ediyorum",
+  "auth_registerTermsRequired": "Kullanım koşullarını ve gizlilik politikasını kabul etmelisin",
+
+  "auth_forgotPasswordTitle": "Şifreyi sıfırla",
+  "auth_forgotPasswordDescription": "E-posta adresini gir, sana şifre sıfırlama bağlantısı gönderelim.",
+  "auth_forgotPasswordSendLink": "Bağlantı gönder",
+  "auth_forgotPasswordBackToLogin": "Girişe dön",
+  "auth_forgotPasswordEmailSent": "E-posta gönderildi!",
+  "auth_forgotPasswordCheckInbox": "Gelen kutunu kontrol et.",
+
+  "auth_verifyEmailTitle": "E-postayı onayla",
+  "auth_verifyEmailSubtitle": "Lütfen e-posta adresini onayla",
+  "auth_verifyEmailDescription": "Sana bir onay e-postası gönderdik. Hesabını etkinleştirmek için e-postadaki bağlantıya tıkla.",
+  "auth_verifyEmailResend": "Tekrar gönder",
+  "auth_verifyEmailResendCountdown": "Tekrar gönder ({seconds}sn)",
+  "@auth_verifyEmailResendCountdown": {
+    "placeholders": {
+      "seconds": { "type": "int" }
+    }
+  },
+  "auth_verifyEmailBackToLogin": "Girişe dön",
+  "auth_verifyEmailResent": "E-posta tekrar gönderildi",
+
+  "shell_dashboard": "Gösterge Paneli",
+  "shell_kinder": "Çocuklar",
+  "shell_anwesenheit": "Yoklama",
+  "shell_nachrichten": "Mesajlar",
+  "shell_mehr": "Daha Fazla",
+
+  "shell_elternHome": "Ana Sayfa",
+  "shell_elternNachrichten": "Mesajlar",
+  "shell_elternTermine": "Randevular",
+  "shell_elternMeinKind": "Çocuğum",
+  "shell_elternMehr": "Daha Fazla",
+
+  "onboarding_institutionTitle": "Kurum kurulumu",
+  "onboarding_institutionCreate": "Kurum oluştur",
+  "onboarding_stepType": "Kurum türü seç",
+  "onboarding_stepData": "Kurum bilgileri",
+  "onboarding_stepGroups": "Grup/Sınıf oluştur",
+  "onboarding_stepStaff": "Personel davet et",
+  "onboarding_selectTypePrompt": "Lütfen bir kurum türü seçin.",
+  "onboarding_nameRequired": "Lütfen kurum için bir ad girin.",
+  "onboarding_nameLabel": "Kurum adı",
+  "onboarding_street": "Sokak",
+  "onboarding_zip": "Posta kodu",
+  "onboarding_city": "Şehir",
+  "onboarding_state": "Eyalet",
+  "onboarding_phone": "Telefon",
+  "onboarding_emailLabel": "E-posta",
+  "onboarding_maxChildren": "Maks. çocuk",
+  "onboarding_color": "Renk",
+  "onboarding_addGroup": "Grup/Sınıf ekle",
+  "onboarding_addInvitation": "Davet ekle",
+  "onboarding_creatingInstitution": "Kurum oluşturuluyor...",
+
+  "onboarding_parentTitle": "Veli kayıt işlemi",
+  "onboarding_parentLinkChild": "Çocuk bağla",
+  "onboarding_parentCodeHint": "Davet kodunu girin...",
+  "onboarding_parentCodeLabel": "Davet kodu",
+  "onboarding_parentCheckCode": "Kodu kontrol et",
+  "onboarding_parentInvitationFound": "Davet bulundu!",
+  "onboarding_parentAcceptInvitation": "Daveti kabul et",
+  "onboarding_parentWelcome": "KitaFlow'a hoş geldiniz!",
+  "onboarding_parentChildLinked": "Çocuğunuz başarıyla bağlandı.",
+  "onboarding_parentLetsGo": "Başlayalım",
+
+  "dashboard_title": "Gösterge Paneli",
+  "dashboard_hints": "Bildirimler",
+  "dashboard_mealPlanToday": "Bugünkü yemek planı",
+  "dashboard_messages": "Mesajlar",
+  "dashboard_greetingMorning": "Günaydın",
+  "dashboard_greetingAfternoon": "İyi günler",
+  "dashboard_greetingEvening": "İyi akşamlar",
+  "dashboard_greetingWithName": "{greeting}, {name}!",
+  "@dashboard_greetingWithName": {
+    "placeholders": {
+      "greeting": { "type": "String" },
+      "name": { "type": "String" }
+    }
+  },
+  "dashboard_statsPresent": "Mevcut",
+  "dashboard_statsUnread": "Okunmamış",
+  "dashboard_statsSick": "Hasta",
+  "dashboard_quickCheckIn": "Giriş",
+  "dashboard_quickMessage": "Mesaj",
+  "dashboard_quickAddChild": "Çocuk +",
+  "dashboard_quickMessages": "Mesajlar",
+  "dashboard_quickSickNote": "Hastalık bildirimi",
+  "dashboard_noMealPlan": "Bugün için yemek planı yok",
+  "dashboard_noNewMessages": "Yeni mesaj yok",
+  "dashboard_birthdayAlert": "Doğum günü: {name}",
+  "@dashboard_birthdayAlert": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "dashboard_birthdayToday": "Bugün {years} yaşına giriyor!",
+  "@dashboard_birthdayToday": {
+    "placeholders": {
+      "years": { "type": "int" }
+    }
+  },
+  "dashboard_birthdayUpcoming": "{date} tarihinde {years} yaşına girecek",
+  "@dashboard_birthdayUpcoming": {
+    "placeholders": {
+      "years": { "type": "int" },
+      "date": { "type": "String" }
+    }
+  },
+
+  "kinder_title": "Çocuklar",
+  "kinder_search": "Çocuk ara...",
+  "kinder_notFound": "Çocuk bulunamadı",
+  "kinder_notFoundDescription": "Mevcut filtrelerle eşleşen çocuk bulunamadı.",
+  "kinder_addChild": "Çocuk ekle",
+  "kinder_errorOccurred": "Bir hata oluştu.",
+
+  "kinder_formEditTitle": "Çocuğu düzenle",
+  "kinder_formNewTitle": "Yeni çocuk",
+  "kinder_formFirstName": "Ad *",
+  "kinder_formLastName": "Soyad *",
+  "kinder_formFirstNameRequired": "Lütfen ad girin",
+  "kinder_formLastNameRequired": "Lütfen soyad girin",
+  "kinder_formBirthDate": "Doğum tarihi *",
+  "kinder_formBirthDateSelect": "Doğum tarihi seç",
+  "kinder_formBirthDateRequired": "Lütfen doğum tarihi seçin",
+  "kinder_formGender": "Cinsiyet",
+  "kinder_formGenderSelect": "Cinsiyet seç",
+  "kinder_formGenderMale": "Erkek",
+  "kinder_formGenderFemale": "Kız",
+  "kinder_formGenderDiverse": "Diğer",
+  "kinder_formGroup": "Grup",
+  "kinder_formGroupSelect": "Grup seç",
+  "kinder_formEntryDate": "Giriş tarihi",
+  "kinder_formEntryDateSelect": "Giriş tarihi seç",
+  "kinder_formNotes": "Notlar",
+  "kinder_formNotesHint": "Özel bilgiler, ihtiyaçlar vb.",
+  "kinder_formSave": "Kaydet",
+  "kinder_formCreate": "Çocuk oluştur",
+
+  "kinder_detailNotFound": "Çocuk bulunamadı.",
+  "kinder_detailDeleteTitle": "Çocuğu sil",
+  "kinder_detailDeleteConfirm": "{name} adlı çocuğu gerçekten silmek istiyor musunuz? Bu işlem geri alınamaz.",
+  "@kinder_detailDeleteConfirm": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "kinder_detailTabMasterData": "Temel bilgiler",
+  "kinder_detailTabAllergies": "Alerjiler ({count})",
+  "@kinder_detailTabAllergies": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "kinder_detailTabContacts": "İletişim kişileri ({count})",
+  "@kinder_detailTabContacts": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "kinder_detailBirthDate": "Doğum tarihi",
+  "kinder_detailGender": "Cinsiyet",
+  "kinder_detailGroup": "Grup",
+  "kinder_detailEntryDate": "Giriş tarihi",
+  "kinder_detailStatus": "Durum",
+  "kinder_detailNotes": "Notlar",
+  "kinder_detailNoAllergies": "Alerji kaydedilmemiş",
+  "kinder_detailAddAllergyHint": "Bilinen alerjileri ekleyin...",
+  "kinder_detailAddAllergy": "Alerji ekle",
+  "kinder_detailRemoveAllergy": "Alerjiyi kaldır",
+  "kinder_detailNoContacts": "İletişim kişisi yok",
+  "kinder_detailAddContactHint": "İletişim kişileri ekleyin...",
+  "kinder_detailAddContact": "Kişi ekle",
+  "kinder_detailRemoveContact": "Kişiyi kaldır",
+  "kinder_detailPickupAuthorized": "Alma yetkisi var",
+  "kinder_detailEmergencyContact": "Acil durum kişisi",
+
+  "kinder_allergyFormTitle": "Alerji ekle",
+  "kinder_allergyFormAllergen": "Alerjen *",
+  "kinder_allergyFormAllergenRequired": "Lütfen bir alerjen seçin",
+  "kinder_allergyFormSeverity": "Şiddet derecesi",
+  "kinder_allergyFormHints": "Notlar",
+  "kinder_allergyFormHintsPlaceholder": "ör. Reaksiyon, acil ilaç",
+
+  "kinder_contactFormEditTitle": "Kişiyi düzenle",
+  "kinder_contactFormAddTitle": "Kişi ekle",
+  "kinder_contactFormName": "Ad *",
+  "kinder_contactFormNameRequired": "Lütfen ad girin",
+  "kinder_contactFormRelation": "İlişki *",
+  "kinder_contactFormRelationHint": "ör. Anne, baba, büyükanne/büyükbaba",
+  "kinder_contactFormRelationRequired": "Lütfen ilişki girin",
+  "kinder_contactFormPhone": "Telefon",
+  "kinder_contactFormEmail": "E-posta",
+  "kinder_contactFormPickupAuthorized": "Alma yetkisi var",
+  "kinder_contactFormPickupDescription": "Çocuğu kurumdan alabilir",
+  "kinder_contactFormEmergencyContact": "Acil durum kişisi",
+  "kinder_contactFormEmergencyDescription": "Acil durumda aranır",
+  "kinder_contactFormSave": "Kaydet",
+
+  "anwesenheit_title": "Yoklama",
+  "anwesenheit_all": "Tümü",
+  "anwesenheit_markAllPresent": "Tümünü mevcut olarak işaretle",
+  "anwesenheit_alreadyPickedUp": "Zaten alınmış veya devamsız bildirilmiş.",
+  "anwesenheit_allRecorded": "Tüm çocuklar zaten kaydedilmiş.",
+  "anwesenheit_markedPresent": "{count} çocuk mevcut olarak işaretlendi.",
+  "@anwesenheit_markedPresent": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "anwesenheit_notRecorded": "Kaydedilmedi",
+  "anwesenheit_presentSince": "{time} tarihinden beri mevcut",
+  "@anwesenheit_presentSince": {
+    "placeholders": {
+      "time": { "type": "String" }
+    }
+  },
+  "anwesenheit_pickedUp": "Alındı {time}",
+  "@anwesenheit_pickedUp": {
+    "placeholders": {
+      "time": { "type": "String" }
+    }
+  },
+  "anwesenheit_statsPresent": "Mevcut",
+  "anwesenheit_statsAbsent": "Devamsız",
+  "anwesenheit_statsSick": "Hasta",
+  "anwesenheit_statsTotal": "Toplam",
+  "anwesenheit_statusDialogTitle": "Durumu değiştir",
+  "anwesenheit_statusDialogNote": "Not (isteğe bağlı)",
+  "anwesenheit_statusDialogSetStatus": "Durumu ayarla",
+
+  "anwesenheit_sickNoteTitle": "Hastalık bildirimi",
+  "anwesenheit_sickNoteDescription": "Çocuğunuzu hasta olarak bildirin veya mazeret girin.",
+  "anwesenheit_sickNoteDate": "Tarih",
+  "anwesenheit_sickNoteReason": "Sebep *",
+  "anwesenheit_sickNoteMessage": "Kuruma mesaj",
+  "anwesenheit_sickNoteMessageHint": "Kuruma isteğe bağlı mesaj...",
+  "anwesenheit_sickNoteSend": "Hastalık bildirimi gönder",
+
+  "nachrichten_title": "Mesajlar",
+  "nachrichten_all": "Tümü",
+  "nachrichten_noMessages": "Mesaj yok",
+  "nachrichten_inboxEmpty": "Gelen kutunuz boş.",
+  "nachrichten_noSentMessages": "Gönderilmiş mesaj yok",
+  "nachrichten_noSentDescription": "Henüz mesaj göndermediniz.",
+  "nachrichten_noImportant": "Önemli mesaj yok",
+  "nachrichten_noImportantDescription": "Önemli olarak işaretlenmiş mesaj bulunmuyor.",
+
+  "nachrichten_detailTitle": "Mesaj",
+  "nachrichten_detailDeleteTitle": "Mesajı sil",
+  "nachrichten_detailDeleteConfirm": "Bu mesajı gerçekten kalıcı olarak silmek istiyor musunuz?",
+  "nachrichten_detailNotFound": "Mesaj bulunamadı.",
+  "nachrichten_detailAttachments": "Ekler",
+  "nachrichten_detailReadBy": "{read}/{total} kişi tarafından okundu",
+  "@nachrichten_detailReadBy": {
+    "placeholders": {
+      "read": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "nachrichten_detailDeleteTooltip": "Mesajı sil",
+
+  "nachrichten_formTitle": "Yeni mesaj",
+  "nachrichten_formType": "Tür",
+  "nachrichten_formRecipients": "Alıcılar",
+  "nachrichten_formRecipientsAll": "Tümü",
+  "nachrichten_formRecipientsGroup": "Grup",
+  "nachrichten_formRecipientsIndividual": "Bireysel",
+  "nachrichten_formSelectGroup": "Grup seç",
+  "nachrichten_formSelectGroupHint": "Lütfen grup seçin",
+  "nachrichten_formSelectGroupRequired": "Lütfen bir grup seçin",
+  "nachrichten_formSelectRecipients": "Alıcı seç",
+  "nachrichten_formRecipientsSelected": "{count} alıcı seçildi",
+  "@nachrichten_formRecipientsSelected": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "nachrichten_formSubject": "Konu",
+  "nachrichten_formSubjectHint": "Konu girin",
+  "nachrichten_formContent": "İçerik",
+  "nachrichten_formContentHint": "Mesajı girin...",
+  "nachrichten_formMarkImportant": "Önemli olarak işaretle",
+  "nachrichten_formSend": "Mesajı gönder",
+
+  "nachrichten_recipientDialogTitle": "Alıcı seç",
+  "nachrichten_recipientDialogSearch": "Ad veya rol ara...",
+  "nachrichten_recipientDialogNone": "Hiçbirini seçme",
+  "nachrichten_recipientDialogAll": "Tümünü seç",
+  "nachrichten_recipientDialogConfirm": "{count} alıcı seç",
+  "@nachrichten_recipientDialogConfirm": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "nachrichten_recipientDialogLoadError": "Profiller yüklenemedi.",
+  "nachrichten_recipientDialogNoProfiles": "Profil bulunamadı.",
+  "nachrichten_recipientDialogNoResults": "\"{query}\" için sonuç bulunamadı.",
+  "@nachrichten_recipientDialogNoResults": {
+    "placeholders": {
+      "query": { "type": "String" }
+    }
+  },
+
+  "nachrichten_attachmentDownload": "İndir",
+  "nachrichten_attachmentRemove": "Kaldır",
+
+  "essensplan_title": "Yemek planı",
+  "essensplan_previousWeek": "Önceki hafta",
+  "essensplan_nextWeek": "Sonraki hafta",
+  "essensplan_currentWeek": "Bu hafta",
+  "essensplan_noMealPlan": "Yemek planı yok",
+  "essensplan_noMealsPlanned": "Bu hafta için henüz yemek planlanmamış.",
+  "essensplan_deleteMeal": "Yemeği sil",
+
+  "essensplan_formEditTitle": "Yemeği düzenle",
+  "essensplan_formNewTitle": "Yeni yemek",
+  "essensplan_formDate": "Tarih",
+  "essensplan_formMealType": "Öğün türü",
+  "essensplan_formDishName": "Yemek adı",
+  "essensplan_formDishNameRequired": "Lütfen yemek adını girin",
+  "essensplan_formDescription": "Açıklama (isteğe bağlı)",
+  "essensplan_formAllergens": "Alerjenler (AB Yönetmeliği 1169/2011)",
+  "essensplan_formVegetarian": "Vejetaryen",
+  "essensplan_formVegan": "Vegan",
+  "essensplan_formSave": "Yemeği kaydet",
+
+  "essensplan_allergenWarnings": "Alerjen uyarıları ({count})",
+  "@essensplan_allergenWarnings": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "essensplan_weekdayMonday": "Pazartesi",
+  "essensplan_weekdayTuesday": "Salı",
+  "essensplan_weekdayWednesday": "Çarşamba",
+  "essensplan_weekdayThursday": "Perşembe",
+  "essensplan_weekdayFriday": "Cuma",
+  "essensplan_weekdaySaturday": "Cumartesi",
+  "essensplan_weekdaySunday": "Pazar",
+
+  "eltern_homeTitle": "KitaFlow",
+  "eltern_homeMyChildren": "Çocuklarım",
+  "eltern_homeNoChildren": "Henüz çocuk bağlanmamış.",
+  "eltern_homeQuickActions": "Hızlı işlemler",
+  "eltern_quickSickNote": "Hastalık bildirimi",
+  "eltern_quickMessage": "Mesaj",
+  "eltern_quickCalendar": "Randevular",
+
+  "eltern_kindTitle": "Çocuğum",
+  "eltern_kindTabProfile": "Profil",
+  "eltern_kindTabAttendance": "Yoklama",
+  "eltern_kindTabAllergies": "Alerjiler",
+  "eltern_kindTabContacts": "İletişim kişileri",
+  "eltern_kindNoChildSelected": "Çocuk seçilmedi.",
+  "eltern_kindBirthday": "Doğum günü",
+  "eltern_kindGender": "Cinsiyet",
+  "eltern_kindStatus": "Durum",
+  "eltern_kindNoAllergies": "Alerji kaydedilmemiş.",
+  "eltern_kindAllergiesTitle": "Alerjiler ve intoleranslar",
+  "eltern_kindAttendanceTitle": "Yoklama",
+  "eltern_kindAttendanceLoading": "Yoklama takvimi yükleniyor...",
+  "eltern_kindNoContacts": "İletişim kişisi kaydedilmemiş.",
+  "eltern_kindContactsTitle": "İletişim kişileri",
+
+  "eltern_nachrichtenTitle": "Mesajlar",
+  "eltern_nachrichtenLoading": "Mesajlar yükleniyor…",
+  "eltern_nachrichtenEmpty": "Mesaj yok",
+  "eltern_nachrichtenEmptyDescription": "Henüz mesaj almadınız.",
+
+  "termine_title": "Randevular",
+  "termine_noAppointments": "Randevu bulunmuyor.",
+  "termine_rsvpTitle": "Geri bildirim",
+  "termine_rsvpFor": "İçin: {title}",
+  "@termine_rsvpFor": {
+    "placeholders": {
+      "title": { "type": "String" }
+    }
+  },
+  "termine_weekdayMon": "Pzt",
+  "termine_weekdayTue": "Sal",
+  "termine_weekdayWed": "Çar",
+  "termine_weekdayThu": "Per",
+  "termine_weekdayFri": "Cum",
+  "termine_weekdaySat": "Cmt",
+  "termine_weekdaySun": "Paz",
+
+  "fotos_title": "Fotoğraflar",
+  "fotos_noPhotos": "Henüz fotoğraf yok.",
+  "fotos_viewerTitle": "Fotoğraf",
+
+  "push_title": "Anlık bildirimler",
+  "push_sectionNotifications": "Bildirimler",
+  "push_messages": "Mesajlar",
+  "push_messagesDescription": "Yeni mesajlar ve veli mektupları",
+  "push_attendance": "Yoklama",
+  "push_attendanceDescription": "Yoklama durumu değişiklikleri",
+  "push_appointments": "Randevular",
+  "push_appointmentsDescription": "Yeni randevular ve hatırlatmalar",
+  "push_mealPlan": "Yemek planı",
+  "push_mealPlanDescription": "Yemek planı değişiklikleri",
+  "push_emergency": "Acil durum",
+  "push_emergencyDescription": "Önemli acil durum bildirimleri",
+  "push_sectionQuietHours": "Sessiz saatler",
+  "push_quietHoursDescription": "Bu süre zarfında bildirim gönderilmez",
+  "push_quietHoursFrom": "Başlangıç",
+  "push_quietHoursTo": "Bitiş",
+
+  "verwaltung_title": "Yönetim",
+  "verwaltung_institution": "Kurum",
+  "verwaltung_groupsTitle": "Gruplar ve sınıflar",
+  "verwaltung_groupsCount": "{count} grup",
+  "@verwaltung_groupsCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "verwaltung_staffTitle": "Personel",
+  "verwaltung_staffCount": "{count} personel",
+  "@verwaltung_staffCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "verwaltung_groupsListTitle": "Gruplar ve sınıflar",
+  "verwaltung_groupsEmpty": "Grup bulunmuyor.",
+  "verwaltung_groupsOccupancyWithMax": "Doluluk: {current} / {max}",
+  "@verwaltung_groupsOccupancyWithMax": {
+    "placeholders": {
+      "current": { "type": "int" },
+      "max": { "type": "int" }
+    }
+  },
+  "verwaltung_groupsOccupancy": "Doluluk: {count} çocuk",
+  "@verwaltung_groupsOccupancy": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "verwaltung_groupsInactive": "Pasif",
+
+  "verwaltung_groupFormEditTitle": "Grubu düzenle",
+  "verwaltung_groupFormNewTitle": "Yeni grup",
+  "verwaltung_groupFormName": "Ad",
+  "verwaltung_groupFormNameRequired": "Ad gereklidir",
+  "verwaltung_groupFormType": "Tür",
+  "verwaltung_groupFormTypeGroup": "Grup",
+  "verwaltung_groupFormTypeClass": "Sınıf",
+  "verwaltung_groupFormMaxChildren": "Maks. çocuk",
+  "verwaltung_groupFormAgeFrom": "Yaş (başlangıç)",
+  "verwaltung_groupFormAgeTo": "Yaş (bitiş)",
+  "verwaltung_groupFormSchoolYear": "Öğretim yılı",
+  "verwaltung_groupFormColor": "Renk",
+  "verwaltung_groupFormActive": "Aktif",
+  "verwaltung_groupFormSave": "Kaydet",
+  "verwaltung_groupFormCreate": "Oluştur",
+
+  "verwaltung_staffListTitle": "Personel",
+  "verwaltung_staffEmpty": "Personel bulunmuyor.",
+  "verwaltung_staffChangeRole": "Rolü değiştir",
+  "verwaltung_staffAssignGroup": "Grup ata",
+  "verwaltung_staffRemove": "Kaldır",
+  "verwaltung_staffNoGroup": "Grup yok",
+  "verwaltung_staffRemoveTitle": "Personeli kaldır",
+  "verwaltung_staffRemoveConfirm": "{name} adlı kişiyi kurumdan kaldırmak istediğinize emin misiniz?",
+  "@verwaltung_staffRemoveConfirm": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+
+  "verwaltung_staffFormTitle": "Personel ekle",
+  "verwaltung_staffFormEmail": "E-posta adresi",
+  "verwaltung_staffFormEmailRequired": "E-posta gereklidir",
+  "verwaltung_staffFormEmailInvalid": "Geçersiz e-posta adresi",
+  "verwaltung_staffFormRole": "Rol",
+  "verwaltung_staffFormGroup": "Grup (isteğe bağlı)",
+  "verwaltung_staffFormNoGroup": "Grup yok",
+  "verwaltung_staffFormAdd": "Ekle",
+  "verwaltung_staffFormInvitePending": "Personel davet e-postası ilerideki bir aşamada uygulanacaktır.",
+
+  "verwaltung_institutionFormTitle": "Kurumu düzenle",
+  "verwaltung_institutionFormSectionGeneral": "Genel",
+  "verwaltung_institutionFormName": "Kurum adı",
+  "verwaltung_institutionFormNameRequired": "Lütfen ad girin",
+  "verwaltung_institutionFormType": "Tür",
+  "verwaltung_institutionFormTypeHint": "Kurum türü seç",
+  "verwaltung_institutionFormTypeRequired": "Lütfen tür seçin",
+  "verwaltung_institutionFormSectionAddress": "Adres",
+  "verwaltung_institutionFormStreet": "Sokak ve numara",
+  "verwaltung_institutionFormZip": "Posta kodu",
+  "verwaltung_institutionFormCity": "Şehir",
+  "verwaltung_institutionFormState": "Eyalet",
+  "verwaltung_institutionFormSectionContact": "İletişim",
+  "verwaltung_institutionFormPhone": "Telefon",
+  "verwaltung_institutionFormEmail": "E-posta",
+  "verwaltung_institutionFormEmailInvalid": "Lütfen geçerli bir e-posta girin",
+  "verwaltung_institutionFormWebsite": "Web sitesi",
+  "verwaltung_institutionFormSaveSuccess": "Kurum başarıyla kaydedildi.",
+  "verwaltung_institutionFormSaveError": "Kaydetme hatası.",
+  "verwaltung_institutionFormLoadError": "Yükleme hatası.",
+
+  "enum_roleErzieher": "Eğitimci",
+  "enum_roleLehrer": "Öğretmen",
+  "enum_roleLeitung": "Yönetici",
+  "enum_roleTraeger": "Kurucu",
+  "enum_roleEltern": "Veli",
+
+  "enum_institutionTypeKrippe": "Kreş",
+  "enum_institutionTypeKita": "Anaokulu",
+  "enum_institutionTypeGrundschule": "İlkokul",
+  "enum_institutionTypeOgs": "Tam gün okul",
+  "enum_institutionTypeHort": "Etüt merkezi",
+
+  "enum_attendanceAnwesend": "Mevcut",
+  "enum_attendanceAbwesend": "Devamsız",
+  "enum_attendanceKrank": "Hasta",
+  "enum_attendanceUrlaub": "İzinli",
+  "enum_attendanceEntschuldigt": "Mazeretli",
+  "enum_attendanceUnentschuldigt": "Mazeretsiz",
+
+  "enum_messageTypeNachricht": "Mesaj",
+  "enum_messageTypeElternbrief": "Veli mektubu",
+  "enum_messageTypeAnkuendigung": "Duyuru",
+  "enum_messageTypeNotfall": "Acil durum",
+
+  "enum_childStatusAktiv": "Aktif",
+  "enum_childStatusEingewoehnung": "Alışma dönemi",
+  "enum_childStatusAbgemeldet": "Kayıt silindi",
+  "enum_childStatusWarteliste": "Bekleme listesi",
+
+  "enum_mealTypeFruehstueck": "Kahvaltı",
+  "enum_mealTypeMittagessen": "Öğle yemeği",
+  "enum_mealTypeSnack": "Atıştırmalık",
+
+  "enum_developmentMotorik": "Motor gelişim",
+  "enum_developmentSprache": "Dil gelişimi",
+  "enum_developmentSozialverhalten": "Sosyal davranış",
+  "enum_developmentKognitiv": "Bilişsel gelişim",
+  "enum_developmentEmotional": "Duygusal gelişim",
+  "enum_developmentKreativitaet": "Yaratıcılık",
+
+  "enum_allergenGluten": "Glüten",
+  "enum_allergenKrebstiere": "Kabuklular",
+  "enum_allergenEier": "Yumurta",
+  "enum_allergenFisch": "Balık",
+  "enum_allergenErdnuesse": "Yer fıstığı",
+  "enum_allergenSoja": "Soya",
+  "enum_allergenMilch": "Süt",
+  "enum_allergenSchalenfruechte": "Sert kabuklu meyveler",
+  "enum_allergenSellerie": "Kereviz",
+  "enum_allergenSenf": "Hardal",
+  "enum_allergenSesam": "Susam",
+  "enum_allergenSchwefeldioxid": "Kükürt dioksit",
+  "enum_allergenLupinen": "Acı bakla",
+  "enum_allergenWeichtiere": "Yumuşakçalar",
+
+  "enum_allergySeverityLeicht": "Hafif",
+  "enum_allergySeverityMittel": "Orta",
+  "enum_allergySeveritySchwer": "Ağır",
+  "enum_allergySeverityLebensbedrohlich": "Hayati tehlike",
+
+  "enum_documentTypeVertrag": "Sözleşme",
+  "enum_documentTypeEinverstaendnis": "Muvafakatname",
+  "enum_documentTypeAttest": "Sağlık raporu",
+  "enum_documentTypeZeugnis": "Karne",
+  "enum_documentTypeSonstiges": "Diğer",
+
+  "enum_nachrichtenTabPosteingang": "Gelen kutusu",
+  "enum_nachrichtenTabGesendet": "Gönderilenler",
+  "enum_nachrichtenTabWichtig": "Önemli",
+
+  "enum_terminTypAllgemein": "Genel",
+  "enum_terminTypElternabend": "Veli toplantısı",
+  "enum_terminTypFestFeier": "Kutlama/Etkinlik",
+  "enum_terminTypSchliessung": "Kapalı gün",
+  "enum_terminTypAusflug": "Gezi",
+  "enum_terminTypSonstiges": "Diğer",
+
+  "enum_rsvpZugesagt": "Kabul edildi",
+  "enum_rsvpAbgesagt": "Reddedildi",
+  "enum_rsvpVielleicht": "Belki",
+
+  "enum_elternBeziehungMutter": "Anne",
+  "enum_elternBeziehungVater": "Baba",
+  "enum_elternBeziehungSorgeberechtigt": "Veli",
+
+  "dashboard_monthJanuar": "Ocak",
+  "dashboard_monthFebruar": "Şubat",
+  "dashboard_monthMaerz": "Mart",
+  "dashboard_monthApril": "Nisan",
+  "dashboard_monthMai": "Mayıs",
+  "dashboard_monthJuni": "Haziran",
+  "dashboard_monthJuli": "Temmuz",
+  "dashboard_monthAugust": "Ağustos",
+  "dashboard_monthSeptember": "Eylül",
+  "dashboard_monthOktober": "Ekim",
+  "dashboard_monthNovember": "Kasım",
+  "dashboard_monthDezember": "Aralık",
+
+  "dashboard_weekdayMontag": "Pazartesi",
+  "dashboard_weekdayDienstag": "Salı",
+  "dashboard_weekdayMittwoch": "Çarşamba",
+  "dashboard_weekdayDonnerstag": "Perşembe",
+  "dashboard_weekdayFreitag": "Cuma",
+  "dashboard_weekdaySamstag": "Cumartesi",
+  "dashboard_weekdaySonntag": "Pazar",
+
+  "verwaltung_rolleDropdownErzieher": "Eğitimci",
+  "verwaltung_rolleDropdownLehrer": "Öğretmen",
+  "verwaltung_rolleDropdownLeitung": "Yönetici",
+
+  "common_language": "Dil",
+
+  "dokumente_title": "Belgeler",
+  "dokumente_noDocuments": "Henüz belge bulunmuyor.",
+  "dokumente_upload": "Yükle",
+  "dokumente_download": "İndir",
+  "dokumente_delete": "Belgeyi sil",
+  "dokumente_deleteConfirm": "Bu belgeyi gerçekten silmek istiyor musunuz?",
+  "dokumente_filterAll": "Tümü",
+  "dokumente_signed": "İmzalanmış",
+  "dokumente_unsigned": "İmzalanmamış",
+  "dokumente_signedBy": "{name} tarafından {date} tarihinde imzalandı",
+  "@dokumente_signedBy": {
+    "placeholders": {
+      "name": {"type": "String"},
+      "date": {"type": "String"}
+    }
+  },
+  "dokumente_validUntil": "{date} tarihine kadar geçerli",
+  "@dokumente_validUntil": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+  "dokumente_expired": "Süresi dolmuş",
+  "dokumente_sign": "İmzala",
+  "dokumente_signTitle": "Belgeyi imzala",
+  "dokumente_signClear": "Temizle",
+  "dokumente_signConfirm": "İmzayı onayla",
+  "dokumente_signHint": "Buraya imzalayın",
+  "dokumente_uploadSuccess": "Belge başarıyla yüklendi.",
+  "dokumente_uploadError": "Belge yüklenirken hata oluştu.",
+  "dokumente_deleteSuccess": "Belge başarıyla silindi.",
+  "dokumente_signSuccess": "Belge başarıyla imzalandı.",
+  "dokumente_pdfGenerate": "PDF oluştur",
+  "dokumente_pdfPreview": "PDF önizleme",
+  "dokumente_formTitle": "Yeni belge",
+  "dokumente_formTitel": "Başlık",
+  "dokumente_formTyp": "Belge türü",
+  "dokumente_formBeschreibung": "Açıklama",
+  "dokumente_formGueltigBis": "Geçerlilik tarihi",
+  "dokumente_formKind": "Çocuğa ata",
+  "dokumente_formKindOptional": "Çocuk yok (genel)",
+  "dokumente_formFile": "Dosya",
+  "dokumente_formFileSelect": "Dosya seç",
+  "dokumente_formFileSelected": "Seçilen dosya: {filename}",
+  "@dokumente_formFileSelected": {
+    "placeholders": {
+      "filename": {"type": "String"}
+    }
+  },
+  "dokumente_count": "{count} belge",
+  "@dokumente_count": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "verwaltung_dokumenteTile": "Belgeler",
+
+  "verwaltung_eingewoehnungTile": "Alıştırma",
+
+  "eingewoehnung_title": "Alıştırma",
+  "eingewoehnung_subtitle": "Alıştırma sürecini yönet",
+  "eingewoehnung_count": "{count} alıştırma",
+  "@eingewoehnung_count": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "eingewoehnung_startdatum": "Başlangıç tarihi",
+  "eingewoehnung_bezugsperson": "Referans kişi",
+  "eingewoehnung_phasenFortschritt": "Aşama ilerlemesi",
+  "eingewoehnung_naechstePhase": "Sonraki aşama",
+  "eingewoehnung_phaseAendern": "Aşamayı değiştir",
+  "eingewoehnung_neueNotiz": "Yeni günlük not",
+  "eingewoehnung_dauer": "Süre (dakika)",
+  "eingewoehnung_trennungsverhalten": "Ayrılma davranışı",
+  "eingewoehnung_essen": "Yemek",
+  "eingewoehnung_schlaf": "Uyku",
+  "eingewoehnung_spiel": "Oyun",
+  "eingewoehnung_stimmung": "Ruh hali",
+  "eingewoehnung_notizenIntern": "Dahili notlar",
+  "eingewoehnung_notizenEltern": "Veliler için notlar",
+  "eingewoehnung_notizenElternHinweis": "Bu not veliler tarafından görülebilir.",
+  "eingewoehnung_keineTagesnotizen": "Henüz günlük not bulunmuyor.",
+  "eingewoehnung_elternFeedback": "Veli geri bildirimi",
+  "eingewoehnung_feedbackFrage": "Çocuğunuzun alıştırma sürecini nasıl deneyimliyorsunuz?",
+  "eingewoehnung_tage": "{count} gün",
+  "@eingewoehnung_tage": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "eingewoehnung_notizGespeichert": "Günlük not kaydedildi.",
+  "eingewoehnung_phaseGeaendert": "Aşama başarıyla değiştirildi.",
+  "eingewoehnung_feedbackGespeichert": "Geri bildirim kaydedildi.",
+  "eingewoehnung_keineAktiven": "Aktif alıştırma bulunmuyor.",
+  "eingewoehnung_neueEingewoehnung": "Yeni alıştırma",
+  "eingewoehnung_kindAuswaehlen": "Çocuk seç",
+  "eingewoehnung_nurEingewoehnung": "Sadece ‚Alıştırma' durumundaki çocuklar",
+
+  "enum_phaseGrundphase": "Temel aşama",
+  "enum_phaseStabilisierung": "Stabilizasyon",
+  "enum_phaseSchlussphase": "Son aşama",
+  "enum_phaseAbgeschlossen": "Tamamlandı",
+
+  "enum_stimmungSehrGut": "Çok iyi",
+  "enum_stimmungGut": "İyi",
+  "enum_stimmungNeutral": "Nötr",
+  "enum_stimmungSchlecht": "Kötü",
+  "enum_stimmungSehrSchlecht": "Çok kötü"
+}
